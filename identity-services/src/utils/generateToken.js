@@ -1,4 +1,4 @@
-const jwt = require(jsonwebtoken);
+const jwt = require('jsonwebtoken');
 const generateToken = async(user)=>{
     const accessToken = jwt.sign({
         userId :user._id,
