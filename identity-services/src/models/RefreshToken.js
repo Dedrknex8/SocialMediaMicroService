@@ -1,25 +1,27 @@
 const mongoose = require("mongoose");
 
-const mongoose = requrie('mongoose');
 
 const refreshTokenSchema = new mongoose.Schema({
     token:{
     type : String,
-    requrie : true,
+    requried : true,
     unique : true,
     },
-    User: {
-        type : mongoose.Schema.types.ObjectId,
-        ref : User
+    user: {
+        type : mongoose.Schema.Types.ObjectId,
+        ref : "user",
+        required:true
     },
     expiresAt : {
         type: Date,
         required : true
     }
-},{timeStamps: true});
+},{timestamps: true});
+console.log("error here");
+
 
 refreshTokenSchema.index({expiresAt:1},{expiresAfterSeconds : 0});
 
-const refershToken = mongoose.model('RefreshToken',refreshTokenSchema);
+const RefershToken = mongoose.model('RefreshToken',refreshTokenSchema);
 
-module.exports(refershToken);
+module.exports = {RefershToken};

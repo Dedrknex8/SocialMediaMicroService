@@ -1,7 +1,11 @@
+const crypto = require('crypto');
+const { required } = require('joi');
 const jwt = require('jsonwebtoken');
+const refershToken = require('../models/RefreshToken')
+
 const generateToken = async(user)=>{
     const accessToken = jwt.sign({
-        userId :user._id,
+        userId : user._id,
         username : user.username,
         role : user.role,
     },process.env.JWT_Secret,{
@@ -12,12 +16,13 @@ const generateToken = async(user)=>{
     const expiresAt = new Date();
     expiresAt.setDate(expiresAt.getDate()+7);
 
-    await refreshToken.create({
-        token : refreshToken,
-        user : user._id,
-        expiresAt 
-    })
-    return {accessToken,refreshToken}
+    await RefershToken.create({
+        token: refreshToken,
+        user: user._id,
+        expiresAt,
+      });
+    
+    return {accessToken,RefreshToken}
 }
 
-module.exports = generateToken
+module.exports =  {generateToken}   

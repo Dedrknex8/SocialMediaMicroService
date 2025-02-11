@@ -1,13 +1,13 @@
 const Joi = require('joi');
 
-const validateRegistration = (data) =>{
-    const schema  = Joi.object({
-        username : Joi.string().min(3).max(15).required(),
-        email:Joi.string().email().required(),
-        password: Joi.string().min(6).require()
-    })
+const validateRegistration = (data) => {
+    const schema = Joi.object({
+        username: Joi.string().min(3).max(15).required(),
+        email: Joi.string().email().required(),
+        password: Joi.string().min(6).required(),
+    });
 
-    return schema.validate(date); //this will validate the schema wd the data
-}
+    return schema.validate(data);
+};
 
-module.exports = validateRegistration;
+module.exports = { validateRegistration }; // Export as an object

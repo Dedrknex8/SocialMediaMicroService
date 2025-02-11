@@ -76,7 +76,7 @@ app.use('/api/auth', routes);
 app.use(errorHandler)
 const PORT = process.env.PORT || 2929
 app.listen(PORT, ()=>{
-    logger.info("runnig on port ");
+    logger.info(`runnig on port ${PORT}`);
 })
 
 //unhandle pomise rejecetion
