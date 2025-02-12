@@ -22,6 +22,6 @@ console.log("error here");
 
 refreshTokenSchema.index({expiresAt:1},{expiresAfterSeconds : 0});
 
-const RefershToken = mongoose.model('RefreshToken',refreshTokenSchema);
+const RefreshToken = mongoose.model('RefreshToken',refreshTokenSchema);
 
-module.exports = {RefershToken};
+module.exports =   RefreshToken

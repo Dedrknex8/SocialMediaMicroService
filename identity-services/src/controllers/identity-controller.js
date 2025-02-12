@@ -3,7 +3,7 @@
 const user = require('../models/user');
 const logger = require('../utils/logger')
 const { validateRegistration } = require('../utils/valildation');
-const { generateToken }  = require('../utils/generateToken');
+const  generateToken  = require('../utils/generateToken');
 
 //user registration
 
@@ -34,7 +34,7 @@ const registerUser = async(req,res)=>{
             await Newuser.save();
             logger.warn("User saved sucessfully",Newuser._id);
 
-            const {accesstoken,refreshtoken} = await generateToken(Newuser)
+            const {accessToken,refreshToken} = await generateToken(Newuser)
             
             res.status(200).json({
                 sucess: true,
@@ -44,6 +44,8 @@ const registerUser = async(req,res)=>{
             });
            
     } catch (error) {
+        console.log(error);
+        
         logger.error('Registration error occured',`${error}`);
         res.status(500).json({
             success:false,
