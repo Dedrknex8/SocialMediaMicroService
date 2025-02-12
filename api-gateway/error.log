@@ -3,3 +3,8 @@
 {"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T15:38:07.003Z"}
 {"level":"error","message":"Proxy error err is not defined","service":"api-gateway","timestamp":"2025-02-12T15:44:35.779Z"}
 {"level":"error","message":"Proxy error err is not defined","service":"api-gateway","timestamp":"2025-02-12T15:46:23.942Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-12T16:25:32.274Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-12T16:27:29.460Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-12T16:29:05.095Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T16:32:20.526Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T16:33:03.042Z"}
