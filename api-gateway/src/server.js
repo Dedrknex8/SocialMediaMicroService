@@ -4,11 +4,14 @@ const Redis = require('ioredis');
 const helmet = require('helmet');
 const cors = require('cors');
 const {rateLimit} = require('express-rate-limit');
-const {redisStore} = require('rate-limit-redis');
+const {RedisStore} = require('rate-limit-redis');
 const logger = require('./utils/logger');
 const proxy = require('express-http-proxy');
+const {errorHandler} = require ('./middleware/errorhandler');
+const { log } = require('winston');
+
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 const redisClient = new Redis(process.env.REDIS_URL);
 
@@ -17,9 +20,9 @@ app.use(cors());
 app.use(express.json()); // JSON PARSER 
 
 //rate limiting
-const rateLimite = nrateLimit({
+const rateLimitOptions = rateLimit({
     windowMs: 15 * 60*1000, //15min
-    max:100,//max no of req
+    max:50,//max no of req
     standardHeaders:true, // rate limit info on headers
     legacyHeaders:false,
     handler: (req,res)=>{
@@ -34,7 +37,7 @@ const rateLimite = nrateLimit({
     })
 })
 
-app.use(rateLimit);
+app.use(rateLimitOptions);
 
 //login middleware
 app.use((req,res,next)=>{
@@ -45,10 +48,14 @@ app.use((req,res,next)=>{
 
 // create proxy
 const proxyOptions = {
-    proxyReqPathResolver : (req)=>{
-        return req.originalUrl.replace(/^\v1/,'api')
-    },
+    proxyReqPathResolver: (req) => {
+         return req.originalUrl.replace(/^\/v1/, '/api'); //this will replace api with v1 and new path as with port 3001
+        // console.log("🔹 Proxying request to:", newPath);
+        // return newPath;
+    },      
     proxyErrorHandler : (err,res,next)=>{
+        console.log(err);
+        
         logger.error(`Proxy error ${err.message}`);
         res.status(500).json({
             success:false,
@@ -62,9 +69,20 @@ app.use('/v1/auth',proxy(process.env.IDENTITY_SERVICE_URL,{
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts,srcReq)=>{
         proxyReqOpts.headers['Content-Type']="application/json"
-        return proxyOptions;
+        return proxyReqOpts;
     },
-    userResDecorator: (proxyRes,proxy)
+    userResDecorator: (proxyRes,proxyResData,userReq,userRes)=>{
+        logger.info(`Response recived from Identity service: ${proxyRes.statusCode} `);
+        // console.log("Something wrong here");
+    return proxyResData;
 
+    },
 }));
 
+app.use(errorHandler);
+
+
+app.listen(PORT,()=>{
+    logger.info(`API GATEWAY IS RUNNIN ON PORT ${PORT} `);
+    logger.info(`Identity service is running on ${process.env.IDENTITY_SERVICE_URL} `)
+})

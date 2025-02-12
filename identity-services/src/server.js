@@ -74,7 +74,7 @@ app.use('/api/auth', routes);
 
 // Error handler
 app.use(errorHandler)
-const PORT = process.env.PORT || 2929
+const PORT = process.env.PORT || 3001
 app.listen(PORT, ()=>{
     logger.info(`runnig on port ${PORT}`);
 })

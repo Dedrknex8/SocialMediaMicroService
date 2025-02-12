@@ -1,0 +1,87 @@
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:33:25.632Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:33:25.638Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:34:50.775Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:34:50.784Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:35:24.032Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:35:24.033Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T15:35:24.048Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:35:59.759Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:35:59.760Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T15:35:59.764Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:38:04.303Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:38:04.309Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:38:06.982Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:38:06.983Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T15:38:07.003Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:39:01.171Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:39:01.172Z"}
+{"level":"info","message":"Response recived from Identity service: 400","service":"api-gateway","timestamp":"2025-02-12T15:39:01.181Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:39:56.922Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:39:56.927Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:39:59.934Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:39:59.935Z"}
+{"level":"info","message":"Response recived from Identity service: 400","service":"api-gateway","timestamp":"2025-02-12T15:39:59.947Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:41:31.932Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:41:31.944Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:41:35.851Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:41:35.852Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-02-12T15:41:35.865Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:44:30.424Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:44:30.431Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:44:35.760Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:44:35.761Z"}
+{"level":"error","message":"Proxy error err is not defined","service":"api-gateway","timestamp":"2025-02-12T15:44:35.779Z"}
+{"level":"info","message":"Recived POST request to /api/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:45:05.646Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:45:05.647Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:46:20.442Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:46:20.447Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:46:23.921Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:46:23.922Z"}
+{"level":"error","message":"Proxy error err is not defined","service":"api-gateway","timestamp":"2025-02-12T15:46:23.942Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-02-12T15:47:46.178Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001","service":"api-gateway","timestamp":"2025-02-12T15:47:46.184Z"}
+{"level":"info","message":"Connected to Redis","service":"api-gateway","timestamp":"2025-02-12T15:47:46.195Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:47:50.211Z"}
+{"level":"info","message":"Request body: {\n  \"username\": \"checkbnewUSe\",\n  \"email\": \"checkUSer@test.com\",\n  \"password\": \"mySecretPasswd\"\n}","service":"api-gateway","timestamp":"2025-02-12T15:47:50.211Z"}
+{"level":"info","message":"Proxying request to Identity service: {\n  \"username\": \"checkbnewUSe\",\n  \"email\": \"checkUSer@test.com\",\n  \"password\": \"mySecretPasswd\"\n}","service":"api-gateway","timestamp":"2025-02-12T15:47:50.214Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-02-12T15:47:50.231Z"}
+{"level":"info","message":"Response body: ","service":"api-gateway","timestamp":"2025-02-12T15:47:50.232Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:51:27.583Z"}
+{"level":"info","message":"Request body: {\n  \"username\": \"checkbnewUSe\",\n  \"email\": \"checkUSer@test.com\",\n  \"password\": \"mySecretPasswd\"\n}","service":"api-gateway","timestamp":"2025-02-12T15:51:27.585Z"}
+{"level":"info","message":"Proxying request to Identity service: {\n  \"username\": \"checkbnewUSe\",\n  \"email\": \"checkUSer@test.com\",\n  \"password\": \"mySecretPasswd\"\n}","service":"api-gateway","timestamp":"2025-02-12T15:51:27.587Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-02-12T15:51:27.595Z"}
+{"level":"info","message":"Response body: ","service":"api-gateway","timestamp":"2025-02-12T15:51:27.596Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:52:05.177Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:52:05.183Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:52:09.250Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:52:09.256Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:52:10.352Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:52:10.359Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:52:22.621Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:52:22.622Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-12T15:52:22.725Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:53:00.711Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:53:00.712Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-12T15:53:00.968Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:54:12.431Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:54:12.437Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:54:15.532Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:54:15.537Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:54:25.334Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:54:25.335Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-12T15:54:25.396Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:54:51.951Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:54:51.960Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:54:54.103Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:54:54.104Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-12T15:54:54.160Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:55:16.193Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:55:16.199Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:55:21.129Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:55:21.130Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-12T15:55:21.188Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-12T15:56:53.991Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-12T15:56:54.001Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-12T15:57:02.186Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T15:57:02.187Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-12T15:57:02.456Z"}

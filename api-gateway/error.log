@@ -1,0 +1,5 @@
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T15:35:24.048Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T15:35:59.764Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-12T15:38:07.003Z"}
+{"level":"error","message":"Proxy error err is not defined","service":"api-gateway","timestamp":"2025-02-12T15:44:35.779Z"}
+{"level":"error","message":"Proxy error err is not defined","service":"api-gateway","timestamp":"2025-02-12T15:46:23.942Z"}
