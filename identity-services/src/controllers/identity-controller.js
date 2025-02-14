@@ -1,5 +1,3 @@
-
-
     const user = require('../models/user');
     const logger = require('../utils/logger')
     const { validateRegistration,validateLogin } = require('../utils/valildation');

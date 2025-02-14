@@ -664,3 +664,5 @@
 {"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:54:06.738Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:54:06.740Z"}
 {"level":"info","message":"Delete user endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:54:06.745Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T03:39:29.815Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T03:39:29.833Z"}
