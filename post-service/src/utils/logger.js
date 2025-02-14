@@ -8,7 +8,7 @@ const logger = winston.createLogger({
         winston.format.splat(), //USED FOR STRING INTERPOLATION -> REPLACE PLACE HOLDER WITH VALUES
         winston.format.json()
     ),
-    defaultMeta : {service: 'api-gateway'},
+    defaultMeta : {service: 'post-service'},
     transports:[
         new winston.transports.Console({
             format: winston.format.combine(
