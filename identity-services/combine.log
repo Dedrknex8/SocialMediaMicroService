@@ -588,3 +588,79 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:32:30.310Z"}
 {"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T01:32:30.315Z"}
 {"level":"warn","message":"Invalid or expire token","service":"identity-service","timestamp":"2025-02-14T01:32:30.344Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:40:38.530Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:40:38.550Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:41:08.343Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:41:08.364Z"}
+{"level":"info","message":"Recived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-02-14T01:42:20.102Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:42:20.103Z"}
+{"level":"info","message":"Login endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:42:20.110Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:42:43.737Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:42:43.738Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:42:57.796Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:42:57.816Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:43:00.383Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:43:00.384Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:43:13.461Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:43:13.462Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:46:03.560Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:46:03.578Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:46:13.923Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:46:13.924Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:46:50.855Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:46:50.888Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:46:51.207Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:46:51.208Z"}
+{"level":"info","message":"Delete user endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:46:51.223Z"}
+{"level":"warn","message":"cannot find user","service":"identity-service","timestamp":"2025-02-14T01:46:51.461Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:47:07.030Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:47:07.066Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:47:10.857Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:47:10.859Z"}
+{"level":"info","message":"Delete user endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:47:10.865Z"}
+{"level":"warn","message":"cannot find user","service":"identity-service","timestamp":"2025-02-14T01:47:10.902Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:48:52.493Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:48:52.525Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:48:52.701Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:48:52.702Z"}
+{"level":"info","message":"Delete user endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:48:52.708Z"}
+{"level":"warn","message":"cannot find user","service":"identity-service","timestamp":"2025-02-14T01:48:53.135Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:49:34.443Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:49:34.490Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:49:36.613Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:49:36.614Z"}
+{"level":"info","message":"Delete user endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:49:36.621Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T01:49:43.047Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:49:43.048Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T01:49:43.051Z"}
+{"level":"warn","message":"Invalid or expire token","service":"identity-service","timestamp":"2025-02-14T01:49:43.079Z"}
+{"level":"info","message":"Recived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-02-14T01:49:46.655Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:49:46.656Z"}
+{"level":"info","message":"Login endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:49:46.658Z"}
+{"level":"warn","message":"Invalid user","service":"identity-service","timestamp":"2025-02-14T01:49:46.693Z"}
+{"level":"info","message":"Recived POST request to /api/auth/register","service":"identity-service","timestamp":"2025-02-14T01:49:53.006Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:49:53.006Z"}
+{"level":"info","message":"register endpoint hit","service":"identity-service","timestamp":"2025-02-14T01:49:53.009Z"}
+{"buffer":{"data":[103,174,161,65,55,199,41,253,228,247,163,86],"type":"Buffer"},"level":"warn","message":"User saved sucessfully","service":"identity-service","timestamp":"2025-02-14T01:49:53.206Z"}
+{"level":"info","message":"Recived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-02-14T01:49:56.547Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:49:56.548Z"}
+{"level":"info","message":"Login endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:49:56.550Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:51:06.055Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:51:06.098Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:51:07.992Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:51:07.993Z"}
+{"level":"info","message":"Delete user endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:51:07.998Z"}
+{"level":"warn","message":"cannot find user","service":"identity-service","timestamp":"2025-02-14T01:51:08.035Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"warn","message":"Error Deleting the user Cannot set headers after they are sent to the client","service":"identity-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\identity-services\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\identity-services\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\identity-services\\node_modules\\express\\lib\\response.js:278:15)\n    at deleteUser (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\identity-services\\src\\controllers\\identity-controller.js:216:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-02-14T01:51:08.071Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T01:53:36.486Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T01:53:36.526Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:53:42.891Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:53:42.893Z"}
+{"level":"info","message":"Delete user endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:53:42.901Z"}
+{"level":"warn","message":"cannot find user","service":"identity-service","timestamp":"2025-02-14T01:53:42.952Z"}
+{"level":"info","message":"Recived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-02-14T01:53:49.209Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:53:49.211Z"}
+{"level":"info","message":"Login endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:53:49.215Z"}
+{"level":"info","message":"Recived POST request to /api/auth/delete-user","service":"identity-service","timestamp":"2025-02-14T01:54:06.738Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T01:54:06.740Z"}
+{"level":"info","message":"Delete user endpoint hit!","service":"identity-service","timestamp":"2025-02-14T01:54:06.745Z"}

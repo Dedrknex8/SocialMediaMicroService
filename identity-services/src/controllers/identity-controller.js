@@ -4,7 +4,7 @@
     const logger = require('../utils/logger')
     const { validateRegistration,validateLogin } = require('../utils/valildation');
     const  generateToken  = require('../utils/generateToken');
-const RefreshToken = require('../models/RefreshToken');
+    const RefreshToken = require('../models/RefreshToken');
 
     //user registration
 
@@ -194,5 +194,44 @@ const RefreshToken = require('../models/RefreshToken');
         
         }
         
+      // DeleteUser
+      const deleteUser = async(req,res)=>{
+        logger.info('Delete user endpoint hit!');
 
-      module.exports = {registerUser,loginUser,userRefreshToken,userLogout}
+        
+        try {
+          const { userId }  = req.body;
+          if(!userId){
+            logger.warn("UserId is invalid or missing");
+            return res.status(400).json({
+              success:false,
+              message:"userId is missing or invalid"
+            })
+          }    
+  
+          const User = await user.findById(userId);
+  
+          if(!User){
+            logger.warn('cannot find user');
+            return res.status(400).json({
+              success:false,
+              message:"can't find user or invalid user id"
+            })
+          }
+
+          await user.findByIdAndDelete(userId);
+          res.status(200).json({
+            success:true,
+            message:"User deleted sucessfully"
+          });
+          
+        } catch (error) {
+          logger.warn("Error Deleting the user",error);
+          res.status(500).json({
+            success:false,
+            message: "Internal Server error"
+        });
+        }    
+      }
+
+      module.exports = {registerUser,loginUser,userRefreshToken,userLogout,deleteUser}

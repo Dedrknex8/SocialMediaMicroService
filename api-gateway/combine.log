@@ -220,3 +220,60 @@
 {"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T01:32:30.303Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:32:30.304Z"}
 {"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:32:30.348Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T01:42:20.047Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:42:20.048Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T01:42:20.564Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:42:43.732Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:42:43.733Z"}
+{"level":"info","message":"Response recived from Identity service: 404 ","service":"api-gateway","timestamp":"2025-02-14T01:42:43.742Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:43:00.348Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:43:00.348Z"}
+{"level":"info","message":"Response recived from Identity service: 404 ","service":"api-gateway","timestamp":"2025-02-14T01:43:00.393Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:43:13.455Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:43:13.456Z"}
+{"level":"info","message":"Response recived from Identity service: 404 ","service":"api-gateway","timestamp":"2025-02-14T01:43:13.465Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:46:13.893Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:46:13.894Z"}
+{"level":"info","message":"Response recived from Identity service: 404 ","service":"api-gateway","timestamp":"2025-02-14T01:46:13.934Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:46:51.139Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:46:51.140Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:46:51.469Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:47:00.660Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:47:00.661Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-14T01:47:00.672Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:47:10.816Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:47:10.817Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:47:10.913Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:48:36.611Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:48:36.611Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-14T01:48:36.616Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:48:52.665Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:48:52.665Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:48:53.142Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:49:36.580Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:49:36.581Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T01:49:36.705Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T01:49:43.043Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:49:43.044Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:49:43.081Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T01:49:46.651Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:49:46.651Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:49:46.695Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-02-14T01:49:53.001Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:49:53.002Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T01:49:53.245Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T01:49:56.543Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:49:56.543Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T01:49:56.722Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:51:07.963Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:51:07.964Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:51:08.042Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:53:42.841Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:53:42.841Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:53:42.960Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T01:53:49.203Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:53:49.204Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T01:53:49.489Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T01:54:06.730Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:54:06.731Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T01:54:06.818Z"}
