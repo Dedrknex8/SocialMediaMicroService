@@ -202,3 +202,21 @@
 {"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T00:50:49.461Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:50:49.463Z"}
 {"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:50:49.687Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T00:54:11.049Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:54:11.050Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:54:11.284Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T00:54:40.205Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:54:40.206Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:54:40.429Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T00:56:26.089Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:56:26.090Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:56:26.419Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T01:31:45.865Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:31:45.866Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T01:31:46.223Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/logout","service":"api-gateway","timestamp":"2025-02-14T01:32:09.869Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:32:09.870Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T01:32:09.922Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T01:32:30.303Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T01:32:30.304Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T01:32:30.348Z"}

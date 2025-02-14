@@ -93,7 +93,7 @@ const RefreshToken = require('../models/RefreshToken');
           res.json({
             accessToken,
             refreshToken,
-            userId: user._id,
+            userId: User._id,
           });
         } catch (e) {
           logger.error("Login error occured", e);
@@ -164,5 +164,35 @@ const RefreshToken = require('../models/RefreshToken');
         }
 
       //logout
+        const userLogout = async(req,res)=>{
+          logger.info('Logout endpoint hit!');
+          try {
+            
+            const {refreshToken} = req.body;
+            if(!refreshToken){
+              logger.warn("Invalid refresh token");
+              res.status(400).json({
+                success:false,
+                message:"Invalid or wrong refershToken"
+              })
+            };
 
-      module.exports = {registerUser,loginUser,userRefreshToken}
+            //del the refresh token before logout
+
+            await RefreshToken.deleteOne({token : refreshToken});
+            res.status(200).json({
+              sucess:true,
+              message:'User logout sucessfully'
+            })
+          } catch (error) {
+            logger.warn("Error getting the refresh token");
+            res.status(500).json({
+              success:false,
+              message: "Internal Server error"
+          });
+          }    
+        
+        }
+        
+
+      module.exports = {registerUser,loginUser,userRefreshToken,userLogout}
