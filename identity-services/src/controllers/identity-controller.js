@@ -4,6 +4,7 @@
     const logger = require('../utils/logger')
     const { validateRegistration,validateLogin } = require('../utils/valildation');
     const  generateToken  = require('../utils/generateToken');
+const RefreshToken = require('../models/RefreshToken');
 
     //user registration
 
@@ -103,9 +104,65 @@
         }
       };
 
-    //refersh token
+      //refersh token
+        const userRefreshToken= async(req,res)=>{
+          logger.info('Refresh Token endpoint hit')
+          console.log("Hit sucess");
+          
+          try {
+            const {refreshToken} = req.body;
+            if(!refreshToken){
+              logger.warn('refresh token missing');
+              return res.status(400).json({
+                sucess:false,
+                message: "refresh token missing"
+            });
+          }
+            //get the store token from this token
+            const storeToken = await RefreshToken.findOne({token : refreshToken});
 
+            if(!storeToken || storeToken.expiresAt < new Date()){
+              logger.warn('Invalid or expire token');
+              return res.status(400).json({
+                sucess:false,
+                message: "Token expired or Invalid"
+            });
+          }
 
-    //logout
+            // find the user from this stored token
+            const User = await user.findById(storeToken.user)
 
-    module.exports = {registerUser,loginUser}
+            if(!User){
+              logger.warn('Invalid or expire token');
+              return res.status(401).json({
+                sucess:false,
+                message: "User not found"
+            });
+            }
+
+            //Generate new token
+            const {accessToken : newaccessToken,refreshToken: newRefreshToken} = await generateToken(User)
+
+            // delete the old token
+            await RefreshToken.deleteOne({_id: storeToken._id})
+
+            return res.status(200).json({
+              sucess: true,
+              messaage:"New token genrated successfully",
+              accessToken : newaccessToken,
+              refreshToken : newRefreshToken,
+
+            })
+            
+          } catch (error) {
+            logger.warn("Error getting the refresh token");
+            res.status(500).json({
+              success:false,
+              message: "Internal Server error"
+          })
+          }
+        }
+
+      //logout
+
+      module.exports = {registerUser,loginUser,userRefreshToken}

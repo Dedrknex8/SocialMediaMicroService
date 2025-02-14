@@ -468,3 +468,96 @@
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-02-12T16:38:03.873Z"}
 {"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-12T16:38:19.371Z"}
 {"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-12T16:38:19.399Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-12T16:49:36.777Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-12T16:49:36.810Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:24:31.827Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:24:31.862Z"}
+{"level":"info","message":"Recived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-02-14T00:26:21.404Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:26:21.406Z"}
+{"level":"info","message":"Login endpoint hit!","service":"identity-service","timestamp":"2025-02-14T00:26:21.588Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:27:08.757Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:27:08.781Z"}
+{"level":"info","message":"Recived GET request to /api/auth/refreshToken","service":"identity-service","timestamp":"2025-02-14T00:28:20.698Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:28:20.699Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:28:20.708Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:29:01.973Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:29:01.996Z"}
+{"level":"info","message":"Recived GET request to /api/auth/refreshToken","service":"identity-service","timestamp":"2025-02-14T00:29:16.760Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:29:16.763Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:29:16.779Z"}
+{"level":"info","message":"Recived GET request to /api/auth/refreshToken","service":"identity-service","timestamp":"2025-02-14T00:30:23.182Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:30:23.184Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:30:23.188Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:30:42.414Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:30:42.439Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:30:47.260Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:30:47.284Z"}
+{"level":"info","message":"Recived GET request to /api/auth/refreshToken","service":"identity-service","timestamp":"2025-02-14T00:30:53.424Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:30:53.426Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:30:53.433Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:31:32.029Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:31:32.045Z"}
+{"level":"info","message":"Recived GET request to /api/auth/refreshToken","service":"identity-service","timestamp":"2025-02-14T00:31:45.548Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:31:45.549Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:31:45.557Z"}
+{"level":"info","message":"Recived GET request to /api/auth/refreshToken","service":"identity-service","timestamp":"2025-02-14T00:32:11.353Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:32:11.355Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:32:11.360Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:33:32.989Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:33:33.016Z"}
+{"level":"info","message":"Recived GET request to /api/auth/refreshToken","service":"identity-service","timestamp":"2025-02-14T00:33:38.535Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:33:38.536Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refreshToken","service":"identity-service","timestamp":"2025-02-14T00:33:52.057Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:33:52.058Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:33:52.063Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:35:29.721Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:35:29.745Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:35:41.860Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:35:41.862Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:35:41.870Z"}
+{"level":"info","message":"Recived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-02-14T00:37:27.579Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:37:27.581Z"}
+{"level":"info","message":"Login endpoint hit!","service":"identity-service","timestamp":"2025-02-14T00:37:27.585Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:37:53.484Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:37:53.486Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:37:53.489Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:39:39.017Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:39:39.040Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:39:49.770Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:39:49.773Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:39:49.784Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:40:59.228Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:40:59.251Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:41:02.449Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:41:02.450Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:41:02.457Z"}
+{"level":"warn","message":"Error getting the refresh token","service":"identity-service","timestamp":"2025-02-14T00:41:02.502Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:42:41.506Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:42:41.523Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:42:46.861Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:42:46.863Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:42:46.871Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:45:46.021Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:45:46.052Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:45:50.742Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:45:50.744Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:45:50.750Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"identity-service","timestamp":"2025-02-14T00:47:25.404Z"}
+{"level":"info","message":"runnig on port 3001","service":"identity-service","timestamp":"2025-02-14T00:47:25.431Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:47:29.371Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:47:29.373Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:47:29.378Z"}
+{"level":"warn","message":"Invalid or expire token","service":"identity-service","timestamp":"2025-02-14T00:47:29.423Z"}
+{"level":"info","message":"Recived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-02-14T00:47:36.602Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:47:36.604Z"}
+{"level":"info","message":"Login endpoint hit!","service":"identity-service","timestamp":"2025-02-14T00:47:36.607Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:48:43.047Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:48:43.049Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:48:43.052Z"}
+{"level":"info","message":"Recived POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-02-14T00:50:44.816Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:50:44.817Z"}
+{"level":"info","message":"Refresh Token endpoint hit","service":"identity-service","timestamp":"2025-02-14T00:50:44.821Z"}
+{"level":"warn","message":"Invalid or expire token","service":"identity-service","timestamp":"2025-02-14T00:50:44.852Z"}
+{"level":"info","message":"Recived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-02-14T00:50:49.467Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-02-14T00:50:49.468Z"}
+{"level":"info","message":"Login endpoint hit!","service":"identity-service","timestamp":"2025-02-14T00:50:49.471Z"}

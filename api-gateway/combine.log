@@ -118,3 +118,87 @@
 {"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-12T16:38:03.820Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-12T16:38:03.821Z"}
 {"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-12T16:38:04.114Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:25:39.597Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:25:39.604Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:26:12.641Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:26:12.647Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T00:26:21.328Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:26:21.329Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:26:21.924Z"}
+{"level":"info","message":"Recived GET request to /v1/auth/refreshToken","service":"api-gateway","timestamp":"2025-02-14T00:28:20.647Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:28:20.648Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:29:00.028Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:29:13.366Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:29:13.372Z"}
+{"level":"info","message":"Recived GET request to /v1/auth/refreshToken","service":"api-gateway","timestamp":"2025-02-14T00:29:16.697Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:29:16.699Z"}
+{"level":"info","message":"Recived GET request to /v1/auth/refreshToken","service":"api-gateway","timestamp":"2025-02-14T00:30:23.170Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:30:23.171Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:30:40.125Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:30:40.134Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:30:50.455Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:30:50.461Z"}
+{"level":"info","message":"Recived GET request to /v1/auth/refreshToken","service":"api-gateway","timestamp":"2025-02-14T00:30:53.366Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:30:53.367Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:31:30.493Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:31:39.783Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:31:39.791Z"}
+{"level":"info","message":"Recived GET request to /v1/auth/refreshToken","service":"api-gateway","timestamp":"2025-02-14T00:31:45.491Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:31:45.492Z"}
+{"level":"info","message":"Recived GET request to /v1/auth/refreshToken","service":"api-gateway","timestamp":"2025-02-14T00:32:11.345Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:32:11.346Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:33:35.823Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:33:35.829Z"}
+{"level":"info","message":"Recived GET request to /v1/auth/refreshToken","service":"api-gateway","timestamp":"2025-02-14T00:33:38.496Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:33:38.498Z"}
+{"level":"info","message":"Response recived from Identity service: 404 ","service":"api-gateway","timestamp":"2025-02-14T00:33:38.545Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refreshToken","service":"api-gateway","timestamp":"2025-02-14T00:33:52.046Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:33:52.048Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:35:27.639Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:35:37.305Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:35:37.312Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:35:41.796Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:35:41.797Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T00:37:27.572Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:37:27.573Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:37:27.821Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:37:53.477Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:37:53.478Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:39:36.927Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:39:36.936Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:39:43.411Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:39:43.417Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:39:49.716Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:39:49.718Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:39:49.845Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:40:19.630Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:40:19.632Z"}
+{"level":"error","message":"Proxy error ","service":"api-gateway","timestamp":"2025-02-14T00:40:19.657Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:41:02.408Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:41:02.410Z"}
+{"level":"info","message":"Response recived from Identity service: 500 ","service":"api-gateway","timestamp":"2025-02-14T00:41:02.514Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:42:46.821Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:42:46.822Z"}
+{"level":"error","message":"Proxy error read ECONNRESET","service":"api-gateway","timestamp":"2025-02-14T00:45:43.984Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:45:50.708Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:45:50.709Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:45:50.932Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:47:29.320Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:47:29.321Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T00:47:29.430Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T00:47:36.594Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:47:36.595Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:47:36.839Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:48:40.889Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:48:40.895Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:48:43.030Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:48:43.031Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:48:43.191Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-14T00:50:27.934Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-14T00:50:27.940Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-02-14T00:50:44.806Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:50:44.808Z"}
+{"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T00:50:44.862Z"}
+{"level":"info","message":"Recived POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-02-14T00:50:49.461Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T00:50:49.463Z"}
+{"level":"info","message":"Response recived from Identity service: 200 ","service":"api-gateway","timestamp":"2025-02-14T00:50:49.687Z"}
