@@ -1,12 +1,12 @@
-const logger  = require('../utils/logger');
+    const logger  = require('../utils/logger');
 
-const errorHandler = async(err,req,res,next)=>{
-    console.error(err.stack);
+    const errorHandler = async(err,req,res,next)=>{
+        console.error(err.stack);
 
-    res.status(err.status || 500).json({
-        message  : err.message || "Internal Sevrer error",
-    });
-    
-}
+        res.status  (err.status || 500).json({
+            message  : err.message || "Internal Sevrer error",
+        });
+        
+    }
 
-    module.exports  = {errorHandler};
+        module.exports  = errorHandler;

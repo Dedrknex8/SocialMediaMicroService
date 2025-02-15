@@ -282,3 +282,5 @@
 {"level":"info","message":"Recived POST request to /v1/auth/delete-user","service":"api-gateway","timestamp":"2025-02-14T04:58:33.549Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-14T04:58:33.553Z"}
 {"level":"info","message":"Response recived from Identity service: 400 ","service":"api-gateway","timestamp":"2025-02-14T04:58:33.824Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-15T03:26:17.786Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-15T03:26:17.792Z"}
