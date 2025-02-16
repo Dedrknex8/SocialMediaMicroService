@@ -48,7 +48,7 @@ app.use((req,res,next)=>{
 
 
 //Routes
-app.use('/api/auth',(req,res,next)=>{
+app.use('/api/post',(req,res,next)=>{
     req.redisClient= redisClient,
     next()
 },postroutes)
