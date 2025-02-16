@@ -54,7 +54,7 @@ app.use('/api/auth',(req,res,next)=>{
 },postroutes)
 
 //Task create new area and for ip based filtering 
-app.use(errorHanlder)
+app.use(errorHanlder) // export as middleware not as object {errorhandler} X 
 app.listen(PORT,()=>{
-    logger.info('Listing to port sucessFullt')
+    logger.info('Listing to port sucessFully')
 });

@@ -9,6 +9,7 @@ const logger = require('./utils/logger');
 const proxy = require('express-http-proxy');
 const {errorHandler} = require ('./middleware/errorhandler');
 const { log } = require('winston');
+const { validateToken } = require('./middleware/auth-middleware');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -81,8 +82,28 @@ app.use('/v1/auth',proxy(process.env.IDENTITY_SERVICE_URL,{
 
 app.use(errorHandler);
 
+//Setting up proxy for post service
+app.use('/v1/post',validateToken,proxy(process.env.POST_SERVICE_URL,{
+    ...proxyOptions,
+    proxyReqOptDecorator : (proxyReqOpts,srcReq)=>{
+        proxyReqOpts.headers['Content-Type'] = "application/json";
+        proxyReqOpts.headers[x-user-id] = srcReq.user.userId; // for post service auth middleware
+        return proxyOptions;
+    },
+    userResDecorator: (proxyRes,proxyResData,userReq,userRes)=>{
+        logger.info(`Response recived from POST service: ${proxyRes.statusCode} `);
+        // console.log("Something wrong here");
+    return proxyResData;
+    },
+    
+})),
+
+
+
 
 app.listen(PORT,()=>{
     logger.info(`API GATEWAY IS RUNNIN ON PORT ${PORT} `);
-    logger.info(`Identity service is running on ${process.env.IDENTITY_SERVICE_URL} `)
+    logger.info(`Identity service is running on ${process.env.IDENTITY_SERVICE_URL} `);
+    logger.info(`POST service is running on ${process.env.POST_SERVICE_URL} `);
+    
 })
