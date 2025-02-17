@@ -9,8 +9,6 @@ const postShema = new mongoose.Schema({
     content:{
         type:String,
         required:true,
-        max:15,
-        min:5
     },
     mdeiaIds:[
         {        
