@@ -40,29 +40,24 @@ const createPost = async(req,res)=>{
 const getallPost = async(req,res)=>{
     logger.warn('Getting all post Endpoint hit!')
     try {
-    const getPost = await Post.find({}); //this will get all the books        
-    if(getPost?.length >0){
-        logger.info("Posts found");
-        res.status(200).json({
-            success:true,
-            message:"All post Found",
-            data:getPost
-        })
-    }else{
-        logger.info("Cannot find posts");
-        res.status(400).json({
-            success:false,
-            message:"Cannt find any Post"
-        })
-    }
-    } catch (error) {
-        logger.warn(`error Getting the post ${error}`);
-        res.status(500).json({
-            success : false,
-            message:'Internal server error'
-        })
-    }
+        
+        const page = parseInt(req.query.page) ||1;
+        const limit = parseInt(req.query.limit) || 10;
+        const startIndex = (page-1) * limit;
 
+        const cacheKey = `posts:$(page):$(limit)`;
+        const cachedKeys = await req.redisClient.get(cacheKey);
+
+        if(cacheKey)
+
+    } catch (error) {
+        logger.error("error fetching posts",error);
+
+        res.status(500).json({
+            success:false,
+            message: "Error fetching posts",
+        })
+    }
 }
 
 module.exports = { createPost,getallPost };
