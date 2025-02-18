@@ -11,5 +11,5 @@ router.use(authenticateReq);
 router.post('/create-post',createPostRateLimit,createPost);
 router.get('/all-posts',getPostLimiter,getallPost);
 router.get('/:id',getPostLimiter,getSinglepost);
-router.delete('/:id',deletePost);
+router.delete('/delete/:id',deletePost);
 module.exports = router;

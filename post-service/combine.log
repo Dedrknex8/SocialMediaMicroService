@@ -411,3 +411,5 @@
 {"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T15:03:14.815Z"}
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T15:03:14.816Z"}
 {"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T15:03:14.818Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T15:22:19.868Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T15:22:19.911Z"}
