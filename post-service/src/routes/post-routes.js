@@ -1,5 +1,5 @@
 const express = require('express');
-const { createPost,getallPost } = require('../controllers/post-controller');
+const { createPost,getallPost,getSinglepost,deletePost } = require('../controllers/post-controller');
 const {authenticateReq} = require('../middleware/auth-middleware');
 const { createPostRateLimit,getPostLimiter  } = require('../middleware/Sensitive-middleware');
 
@@ -10,4 +10,6 @@ router.use(authenticateReq);
 
 router.post('/create-post',createPostRateLimit,createPost);
 router.get('/all-posts',getPostLimiter,getallPost);
+router.get('/:id',getPostLimiter,getSinglepost);
+router.delete('/:id',deletePost);
 module.exports = router;

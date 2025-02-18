@@ -22,6 +22,8 @@ const createPost = async(req,res)=>{
     })
     
     await newnlyCreatedPost.save();
+    //invalid the cached keys and delete the cached when post is created
+    await invalidPostCache(req,newnlyCreatedPost._id.toString())
     logger.info(`Post created sucessfully ${newnlyCreatedPost}`)
     res.status(201).json({
         success : true,
@@ -35,6 +37,13 @@ const createPost = async(req,res)=>{
         })
     }
 
+}
+// Invalid the cache
+async function invalidPostCache(req,input){
+    const keys = await req.redisClient.keys("posts:*");
+    if(keys.length >0){
+        await req.redisClient.del(keys);
+    }
 }
 //getallPost
 const getallPost = async(req,res)=>{
@@ -81,4 +90,78 @@ const getallPost = async(req,res)=>{
     }
 }
 
-module.exports = { createPost,getallPost };
+// Get single Post
+
+const getSinglepost = async(req,res)=>{
+   
+   try{
+    const postId = req.params.id;
+    const cachedkey = `post:${postId}`;
+    const cachedPost = await req.redisClient.get(cachedkey); // this will get the post to cached
+
+    if(cachedPost){
+        logger.info('Serving from cached Post')
+        return res.json(JSON.parse(cachedPost));
+    }
+
+    const singlePost = await Post.findById(postId);
+
+    if(!singlePost){
+        return res.status(401).json({
+            sucess:false,
+            message:'No post available'
+        })
+    }
+
+    // set the cached key
+    await req.redisClient.setex(cachedPost,3600,JSON.stringify(singlePost));
+    return res.status(200).json({
+        sucess:true,
+        message:`Post found with id ${postId}`,
+        data:singlePost
+    })
+}catch(error){
+    logger.warn('error getting the post',error);
+    res.status(500).json({
+        success:false,
+        message: "Error fetching post",
+    })
+}
+
+}
+
+// delete post
+
+const deletePost = async(req,res)=>{
+    logger.info('Delete post endpoint hit');
+
+    try {
+        const deletePostId = req.params.id
+        const postToBeDeleted = await Post.findByIdAndDelete(deletePostId)
+
+        if(!postToBeDeleted){
+            return res.status(400).json({
+                sucess:false,
+                message:'Cannot delete post with this id'
+            })
+        }
+
+        
+        // maybe decahed the value
+        await req.redisClient.del(`post:${deletePostId}`);
+        return res.status(200).json({
+            success:true,
+            message:'Post deleted sucessFully'
+        })
+
+
+        
+    } catch (error) {
+        logger.warn('Cannot delete post',error);
+        res.status(500).json({
+            success:false,
+            message: "Error deleting posts",
+        })
+    }
+}
+module.exports = { createPost,getallPost,getSinglepost,deletePost};
