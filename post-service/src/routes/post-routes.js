@@ -9,5 +9,5 @@ router.use(authenticateReq);
 
 
 router.post('/create-post',createPostRateLimit,createPost);
-
+router.get('/all-posts',getPostLimiter,getallPost);
 module.exports = router;

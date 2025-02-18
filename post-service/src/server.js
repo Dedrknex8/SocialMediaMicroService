@@ -32,7 +32,7 @@ app.use((req,res,next)=>{
 const rateLimiter = new RateLimiterRedis({
     storeClient: redisClient, //which client
     keyPrefix: 'middleware', //which databse
-    points: 10, // max req from one Ip
+    points: 100, // max req from one Ip
     duration:1 //max req in 1 second 
 })
 

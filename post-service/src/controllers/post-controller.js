@@ -45,11 +45,32 @@ const getallPost = async(req,res)=>{
         const limit = parseInt(req.query.limit) || 10;
         const startIndex = (page-1) * limit;
 
-        const cacheKey = `posts:$(page):$(limit)`;
-        const cachedKeys = await req.redisClient.get(cacheKey);
+        const cacheKey = `posts:${page}:${limit}`;
+        const cachedPosts = await req.redisClient.get(cacheKey);
 
-        if(cacheKey)
+        if(cachedPosts){
+            logger.info('Serving from cached Posts')
+            return res.json(JSON.parse(cachedPosts));
+        }
 
+        //if not present then search
+
+        const posts = await Post.find({}).sort({createdAt:-1}).skip(startIndex).limit(limit);
+
+        const totalNoOfPosts = await Post.countDocuments();
+        if (startIndex >= totalNoOfPosts) {
+            return res.json({ posts: [], message: "No more posts!" });
+        }
+
+        const result = {
+            posts,
+            current: page,
+            totalPages : Math.ceil(totalNoOfPosts / limit),
+            totalPosts: totalNoOfPosts,
+        };
+        
+        await req.redisClient.setex(cacheKey,10, JSON.stringify(result));
+        return res.json(result)
     } catch (error) {
         logger.error("error fetching posts",error);
 

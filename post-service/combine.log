@@ -126,3 +126,146 @@
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-17T14:01:16.458Z"}
 {"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-17T14:01:16.461Z"}
 {"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'hi myname is ',\n  mdeiaIds: [],\n  _id: new ObjectId('67b3412c3e7c2433f2d29f09'),\n  createdAt: 2025-02-17T14:01:16.464Z,\n  updatedAt: 2025-02-17T14:01:16.464Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-17T14:01:16.506Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:24:34.404Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:24:34.430Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:25:21.510Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:25:21.540Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:27:39.278Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:27:39.280Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:28:42.772Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:28:42.773Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:28:50.381Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:28:50.427Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:29:15.629Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:29:15.666Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:29:30.049Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:29:30.087Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:29:35.743Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:29:35.744Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:30:15.857Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:30:15.860Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:30:44.133Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:30:44.177Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:30:44.923Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:30:44.924Z"}
+{"level":"warn","message":"Get post rate limit exceeded for IP:::1","service":"post-service","timestamp":"2025-02-18T01:30:44.942Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-18T01:31:08.127Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:31:08.129Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:31:08.140Z"}
+{"0":"\"","1":"c","10":"l","11":"e","12":"n","13":"g","14":"t","15":"h","16":" ","17":"m","18":"u","19":"s","2":"o","20":"t","21":" ","22":"b","23":"e","24":" ","25":"a","26":"t","27":" ","28":"l","29":"e","3":"n","30":"a","31":"s","32":"t","33":" ","34":"3","35":" ","36":"c","37":"h","38":"a","39":"r","4":"t","40":"a","41":"c","42":"t","43":"e","44":"r","45":"s","46":" ","47":"l","48":"o","49":"n","5":"e","50":"g","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"create post error","service":"post-service","timestamp":"2025-02-18T01:31:08.159Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-18T01:31:16.313Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:31:16.315Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:31:16.319Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'cnac ',\n  mdeiaIds: [],\n  _id: new ObjectId('67b3e2e427847eeb5b3120e3'),\n  createdAt: 2025-02-18T01:31:16.344Z,\n  updatedAt: 2025-02-18T01:31:16.344Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-18T01:31:16.417Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-18T01:31:21.022Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:31:21.024Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:31:21.030Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'cacascsa ',\n  mdeiaIds: [],\n  _id: new ObjectId('67b3e2e927847eeb5b3120e5'),\n  createdAt: 2025-02-18T01:31:21.035Z,\n  updatedAt: 2025-02-18T01:31:21.035Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-18T01:31:21.074Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:31:25.187Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:31:25.189Z"}
+{"level":"warn","message":"Get post rate limit exceeded for IP:::1","service":"post-service","timestamp":"2025-02-18T01:31:25.198Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:32:25.934Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:32:25.971Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:32:28.475Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:32:28.478Z"}
+{"level":"warn","message":"Get post rate limit exceeded for IP:::1","service":"post-service","timestamp":"2025-02-18T01:32:28.493Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:32:38.826Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:32:38.827Z"}
+{"level":"warn","message":"Get post rate limit exceeded for IP:::1","service":"post-service","timestamp":"2025-02-18T01:32:38.833Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:33:12.072Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:33:12.103Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:33:16.029Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:33:16.031Z"}
+{"level":"warn","message":"Get post rate limit exceeded for IP:::1","service":"post-service","timestamp":"2025-02-18T01:33:16.044Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:33:44.580Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:33:44.608Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:33:48.442Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:33:48.445Z"}
+{"level":"warn","message":"Get post rate limit exceeded for IP:::1","service":"post-service","timestamp":"2025-02-18T01:33:48.456Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:35:59.524Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:35:59.526Z"}
+{"level":"warn","message":"Get post rate limit exceeded for IP:::1","service":"post-service","timestamp":"2025-02-18T01:35:59.536Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:36:58.115Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:36:58.155Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:37:05.637Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:37:05.640Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:37:05.653Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:37:14.497Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:37:14.499Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:37:14.507Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:37:25.281Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:37:25.283Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:37:25.292Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:37:29.853Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:37:29.855Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:37:29.861Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-18T01:37:39.039Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:37:39.041Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:37:39.046Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'cacascsa ',\n  mdeiaIds: [],\n  _id: new ObjectId('67b3e46363a3f96f74f9f612'),\n  createdAt: 2025-02-18T01:37:39.079Z,\n  updatedAt: 2025-02-18T01:37:39.079Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-18T01:37:39.153Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:37:45.013Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:37:45.015Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:37:45.020Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:40:28.878Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:40:28.902Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:41:19.968Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:41:19.970Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:41:19.982Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts?page=2","service":"post-service","timestamp":"2025-02-18T01:42:02.148Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:42:02.149Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:42:02.152Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:43:17.509Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:43:17.533Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:43:57.583Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:43:57.585Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:43:57.597Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:44:28.995Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:44:29.017Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:44:32.442Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:44:32.443Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:44:32.451Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:47:12.995Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:47:13.015Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:47:13.982Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:47:13.983Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:47:13.989Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:47:32.767Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:47:32.768Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:47:32.771Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:47:35.042Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:47:35.043Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:47:35.046Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:47:55.196Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:47:55.220Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:47:59.983Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:47:59.984Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:47:59.991Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:50:04.080Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:50:04.140Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:50:04.520Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:50:04.522Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:50:04.548Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:50:09.003Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:50:09.005Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:50:09.012Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:50:49.717Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:50:49.786Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:50:50.123Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:50:50.125Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:50:50.156Z"}
+{"level":"info","message":"Serving from cached Posts","service":"post-service","timestamp":"2025-02-18T01:50:50.164Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:51:27.756Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:51:27.803Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:51:29.301Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:51:29.304Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:51:29.318Z"}
+{"level":"info","message":"Serving from cached Posts","service":"post-service","timestamp":"2025-02-18T01:51:29.322Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:51:32.084Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:51:32.085Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:51:32.092Z"}
+{"level":"info","message":"Serving from cached Posts","service":"post-service","timestamp":"2025-02-18T01:51:32.095Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-18T01:53:07.974Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-18T01:53:08.015Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-18T01:53:10.137Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-18T01:53:10.139Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-18T01:53:10.153Z"}
