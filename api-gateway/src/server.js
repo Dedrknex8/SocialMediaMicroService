@@ -88,7 +88,7 @@ app.use('/v1/post',validateToken,proxy(process.env.POST_SERVICE_URL,{
     proxyReqOptDecorator : (proxyReqOpts,srcReq)=>{
         proxyReqOpts.headers['Content-Type'] = "application/json";
         proxyReqOpts.headers['x-user-id'] = srcReq.user.userId; // for post service auth middleware
-        return proxyReqOpts; // ✅ FIX: Return proxyReqOpts, NOT proxyOptions
+        return proxyReqOpts; 
     },
     userResDecorator: (proxyRes,proxyResData,userReq,userRes)=>{
         logger.info(`Response recived from POST service: ${proxyRes.statusCode} `);

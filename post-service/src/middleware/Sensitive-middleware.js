@@ -24,10 +24,10 @@ const createPostRateLimitMiddleware = (req,res,next) =>{
 
 }
 
-//Get post rate limiter
+//Get post rate limiter for both the post
 const getPostLimiter = rateLimit({
     windowMs: 60*100, //1Min
-    max:100, //2 req per user
+    max:100, //100 req per user for testing (change it for situation)
     standardHeaders:true,
     legacyHeaders:false,
     handler:(req,res)=>{

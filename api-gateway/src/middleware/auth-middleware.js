@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 
 const validateToken = (req,res,next)=>{
     const authHeader = req.headers['authorization'];
-    const token = authHeader && authHeader.split(" ")[1]; // BEARE TOKEN
+    const token = authHeader && authHeader.split(" ")[1]; // BEARER TOKEN
 
     if(!token){
         logger.warn('Authorization failed');

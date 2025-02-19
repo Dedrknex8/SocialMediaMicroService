@@ -4,7 +4,7 @@ const {authenticateReq} = require('../middleware/auth-middleware');
 const { createPostRateLimit,getPostLimiter  } = require('../middleware/Sensitive-middleware');
 
 const router = express.Router();
-//  a middle that tells if an user if auth or not
+// a middle that tells if an user if auth or not
 router.use(authenticateReq);
 
 
