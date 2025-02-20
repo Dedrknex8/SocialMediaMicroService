@@ -1,4 +1,4 @@
-const {uploadMedia} = require('../controllers/media-controller');
+const {uploadMedia,delMedia} = require('../controllers/media-controller');
 const multer = require('multer');
 const express = require('express');
 const { authenticateReq } = require('../middleware/auth-middleware');
@@ -43,6 +43,8 @@ router.post('/upload', authenticateReq, (req,res,next)=>{
         next()
     })
 },uploadMedia)
+
+router.delete('/delete/:id',authenticateReq,delMedia)
 
 
 module.exports = router;

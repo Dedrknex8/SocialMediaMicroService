@@ -1,7 +1,7 @@
 const { uploadMediaCloudinary } = require('../utils/cloudinary');
 const logger = require('../utils/logger');
 const Media = require('../modells/Media');
-
+const {deleteMediaCloudinary} = require('../utils/cloudinary')
 const uploadMedia = async(req,res)=>{
     logger.info('Upload Media Endpoint hit');
     try {
@@ -52,4 +52,49 @@ const uploadMedia = async(req,res)=>{
     }
 }
 
-module.exports= { uploadMedia };
+
+// Delete media
+
+const delMedia = async(req,res)=>{
+    logger.info('Media delete endpoint..')
+
+    try {
+        const imageTobeDeleted = req.params.id;
+
+        const userId = req.user.userId;
+
+        const media = await Media.findById(imageTobeDeleted);
+        logger.info(`Media deleted from database: ${imageTobeDeleted}`);
+        if(!media){
+            return res.status(400).json({
+                sucess : false,
+                message : "Cann't find the media"
+            })
+        }
+
+        //check if the media is uploaded by same user
+        if (media.userId.toString() !== userId) {
+            return res.status(403).json({
+                success: false,
+                message: "Unauthorized! You can only delete your own media.",
+            });
+        }
+
+       const cloudinary =  await deleteMediaCloudinary(media.publicId);
+        await Media.findByIdAndDelete(imageTobeDeleted);
+        
+        return res.status(200).json({
+            success: true,
+            message: "Media deleted successfully",
+        });
+
+        
+    } catch (error) {
+        logger.warn("error deleting",error);
+        return res.status(500).json({
+            sucess:false,
+            messsage:"something went wrong"
+        })
+    }
+}
+module.exports= { uploadMedia,delMedia };
