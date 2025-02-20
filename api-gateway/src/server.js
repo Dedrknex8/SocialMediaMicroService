@@ -97,6 +97,21 @@ app.use('/v1/post',validateToken,proxy(process.env.POST_SERVICE_URL,{
     },
     
 })),
+//Setting up proxy for media services
+app.use('/v1/upload',validateToken,proxy(process.env.MEDIA_SERVICE_URL,{
+    ...proxyOptions,
+    proxyReqOptDecorator : (proxyReqOpts,srcReq)=>{
+        proxyReqOpts.headers['Content-Type'] = "application/json";
+        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId; // for post service auth middleware
+        return proxyReqOpts; 
+    },
+    userResDecorator: (proxyRes,proxyResData,userReq,userRes)=>{
+        logger.info(`Response recived from Media service: ${proxyRes.statusCode} `);
+        // console.log("Something wrong here");
+    return proxyResData;
+    },
+    
+})),
 
 
 
@@ -105,5 +120,6 @@ app.listen(PORT,()=>{
     logger.info(`API GATEWAY IS RUNNIN ON PORT ${PORT} `);
     logger.info(`Identity service is running on ${process.env.IDENTITY_SERVICE_URL} `);
     logger.info(`POST service is running on ${process.env.POST_SERVICE_URL} `);
+    logger.info(`MEDIA service is running on ${process.env.MEDIA_SERVICE_URL} `);
     
 })

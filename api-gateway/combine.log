@@ -733,3 +733,7 @@
 {"level":"info","message":"Recived GET request to /v1/post/all-posts","service":"api-gateway","timestamp":"2025-02-18T15:03:14.810Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-18T15:03:14.811Z"}
 {"level":"info","message":"Response recived from POST service: 200 ","service":"api-gateway","timestamp":"2025-02-18T15:03:14.899Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-20T15:47:19.104Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-20T15:47:19.110Z"}
+{"level":"info","message":"POST service is running on http://localhost:3002 ","service":"api-gateway","timestamp":"2025-02-20T15:47:19.111Z"}
+{"level":"info","message":"MEDIA service is running on http://localhost:3003 ","service":"api-gateway","timestamp":"2025-02-20T15:47:19.111Z"}

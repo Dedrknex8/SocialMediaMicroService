@@ -25,3 +25,5 @@ const mediaSchema = new mongoose.Schema({
 },{timestamps:true});
 
 const Media = mongoose.model('Model',mediaSchema);
+
+module.exports = Media;
