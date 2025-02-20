@@ -2,7 +2,7 @@ const {uploadMedia} = require('../controllers/media-controller');
 const multer = require('multer');
 const express = require('express');
 const { authenticateReq } = require('../middleware/auth-middleware');
-const { error } = require('winston');
+const logger = require('../utils/logger');
 
 const router = express.Router();
 

@@ -98,11 +98,18 @@ app.use('/v1/post',validateToken,proxy(process.env.POST_SERVICE_URL,{
     
 })),
 //Setting up proxy for media services
-app.use('/v1/upload',validateToken,proxy(process.env.MEDIA_SERVICE_URL,{
+app.use('/v1/media',
+    validateToken,
+    proxy(process.env.MEDIA_SERVICE_URL,{
     ...proxyOptions,
     proxyReqOptDecorator : (proxyReqOpts,srcReq)=>{
-        proxyReqOpts.headers['Content-Type'] = "application/json";
         proxyReqOpts.headers['x-user-id'] = srcReq.user.userId; // for post service auth middleware
+        const contentType = srcReq.headers['content-type'] || "";
+
+        if (!contentType.startsWith("multipart/form-data")) {
+        proxyReqOpts.headers['Content-Type'] = "application/json";
+        }
+
         return proxyReqOpts; 
     },
     userResDecorator: (proxyRes,proxyResData,userReq,userRes)=>{
@@ -110,6 +117,7 @@ app.use('/v1/upload',validateToken,proxy(process.env.MEDIA_SERVICE_URL,{
         // console.log("Something wrong here");
     return proxyResData;
     },
+    parseReqBody : false, //ensure that entered proxy data is proxy for file upload also
     
 })),
 
