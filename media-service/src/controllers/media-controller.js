@@ -52,6 +52,33 @@ const uploadMedia = async(req,res)=>{
     }
 }
 
+// Fetch media
+const getMedia = async(req,res)=>{
+    logger.info('Getting media ...');
+    try {
+        
+        const result =  await Media.find({});
+
+        if(!result){
+           return res.status(400).json({
+                success:false,
+                message:"Cann't find any media"
+            })
+        }
+        return res.status(200).json({
+            success:true,
+            message:"Fond media any media",
+            result,
+        })
+
+    } catch (error) {
+        logger.warn('Error fetching media failed',error);
+        res.status(500).json({
+            success:false,
+            message:'Someting went wrong while fetching media..',
+        })
+    }
+}
 
 // Delete media
 
@@ -97,4 +124,4 @@ const delMedia = async(req,res)=>{
         })
     }
 }
-module.exports= { uploadMedia,delMedia };
+module.exports= { uploadMedia,delMedia,getMedia };

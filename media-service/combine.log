@@ -166,3 +166,28 @@
 {"level":"info","message":"Media deleted from database: 67b763f6bbde2e30f179a0ac","service":"mdeia-service","timestamp":"2025-02-20T17:19:25.104Z"}
 {"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-20T17:19:37.918Z"}
 {"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-20T17:19:37.939Z"}
+{"level":"info","message":"Recived DELETE request to /api/media/delete/67b1e6082ef1450c97c2e4d2","service":"mdeia-service","timestamp":"2025-02-21T02:17:22.518Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T02:17:22.520Z"}
+{"level":"info","message":"Media delete endpoint..","service":"mdeia-service","timestamp":"2025-02-21T02:17:22.523Z"}
+{"level":"info","message":"Media deleted from database: 67b1e6082ef1450c97c2e4d2","service":"mdeia-service","timestamp":"2025-02-21T02:17:22.746Z"}
+{"level":"info","message":"Recived DELETE request to /api/media/delete/67b7533a1ed2ce4d68a11f42","service":"mdeia-service","timestamp":"2025-02-21T02:17:48.350Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T02:17:48.351Z"}
+{"level":"info","message":"Media delete endpoint..","service":"mdeia-service","timestamp":"2025-02-21T02:17:48.354Z"}
+{"level":"info","message":"Media deleted from database: 67b7533a1ed2ce4d68a11f42","service":"mdeia-service","timestamp":"2025-02-21T02:17:48.396Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-21T02:28:04.279Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-21T02:28:04.305Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-21T02:28:25.174Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-21T02:28:25.204Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-21T02:29:08.486Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-21T02:29:08.504Z"}
+{"level":"info","message":"Recived GET request to /api/media/fetch","service":"mdeia-service","timestamp":"2025-02-21T02:29:51.512Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T02:29:51.514Z"}
+{"level":"info","message":"Getting media ...","service":"mdeia-service","timestamp":"2025-02-21T02:29:51.518Z"}
+{"kind":"ObjectId","level":"warn","message":"Error fetching media failed Cast to ObjectId failed for value \"{}\" (type Object) at path \"_id\" for model \"Model\"","path":"_id","reason":{},"service":"mdeia-service","stack":"CastError: Cast to ObjectId failed for value \"{}\" (type Object) at path \"_id\" for model \"Model\"\n    at SchemaObjectId.cast (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at cast (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\node_modules\\mongoose\\lib\\cast.js:319:34)\n    at Query.cast (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\node_modules\\mongoose\\lib\\query.js:4907:12)\n    at Query._castConditions (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\node_modules\\mongoose\\lib\\query.js:2325:10)\n    at model.Query._findOne (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\node_modules\\mongoose\\lib\\query.js:2648:8)\n    at model.Query.exec (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\node_modules\\mongoose\\lib\\query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getMedia (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\media-service\\src\\controllers\\media-controller.js:60:25)","stringValue":"\"{}\"","timestamp":"2025-02-21T02:29:51.536Z","value":{},"valueType":"Object"}
+{"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-21T02:30:53.551Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-21T02:30:53.572Z"}
+{"level":"info","message":"Recived GET request to /api/media/fetch","service":"mdeia-service","timestamp":"2025-02-21T02:30:57.690Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T02:30:57.692Z"}
+{"level":"info","message":"Getting media ...","service":"mdeia-service","timestamp":"2025-02-21T02:30:57.694Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-21T02:31:12.754Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-21T02:31:12.776Z"}
