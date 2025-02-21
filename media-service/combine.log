@@ -191,3 +191,29 @@
 {"level":"info","message":"Getting media ...","service":"mdeia-service","timestamp":"2025-02-21T02:30:57.694Z"}
 {"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-21T02:31:12.754Z"}
 {"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-21T02:31:12.776Z"}
+{"level":"info","message":"Recived POST request to /api/media/upload","service":"mdeia-service","timestamp":"2025-02-21T02:47:34.424Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T02:47:34.427Z"}
+{"level":"info","message":"Upload Media Endpoint hit","service":"mdeia-service","timestamp":"2025-02-21T02:47:34.441Z"}
+{"level":"info","message":"file details : originalName=undefined,type=undefined","service":"mdeia-service","timestamp":"2025-02-21T02:47:34.442Z"}
+{"level":"info","message":"Uploading to cloudinary started ...","service":"mdeia-service","timestamp":"2025-02-21T02:47:34.444Z"}
+{"level":"info","message":"Cloudinary upload successfull.PublicId: mhzdmw2rmzwryatl9lml","service":"mdeia-service","timestamp":"2025-02-21T02:47:36.258Z"}
+{"level":"info","message":"Recived POST request to /api/media/upload","service":"mdeia-service","timestamp":"2025-02-21T02:59:06.094Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T02:59:06.095Z"}
+{"level":"info","message":"Upload Media Endpoint hit","service":"mdeia-service","timestamp":"2025-02-21T02:59:06.099Z"}
+{"level":"info","message":"file details : originalName=undefined,type=undefined","service":"mdeia-service","timestamp":"2025-02-21T02:59:06.101Z"}
+{"level":"info","message":"Uploading to cloudinary started ...","service":"mdeia-service","timestamp":"2025-02-21T02:59:06.102Z"}
+{"level":"info","message":"Cloudinary upload successfull.PublicId: wlbiwiw22jc78gtzz0up","service":"mdeia-service","timestamp":"2025-02-21T02:59:07.779Z"}
+{"level":"info","message":"Recived DELETE request to /api/media/delete/67b7e94862459ec9c3fe9825","service":"mdeia-service","timestamp":"2025-02-21T02:59:18.205Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T02:59:18.206Z"}
+{"level":"info","message":"Media delete endpoint..","service":"mdeia-service","timestamp":"2025-02-21T02:59:18.208Z"}
+{"level":"info","message":"Media deleted from database: 67b7e94862459ec9c3fe9825","service":"mdeia-service","timestamp":"2025-02-21T02:59:18.247Z"}
+{"level":"info","message":"Recived DELETE request to /api/media/delete/67b7e94862459ec9c3fe9825","service":"mdeia-service","timestamp":"2025-02-21T02:59:42.868Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T02:59:42.870Z"}
+{"level":"info","message":"Media delete endpoint..","service":"mdeia-service","timestamp":"2025-02-21T02:59:42.871Z"}
+{"level":"info","message":"Media deleted from database: 67b7e94862459ec9c3fe9825","service":"mdeia-service","timestamp":"2025-02-21T02:59:42.899Z"}
+{"level":"info","message":"Recived DELETE request to /api/media/delete67b7ebfb62459ec9c3fe9827","service":"mdeia-service","timestamp":"2025-02-21T03:00:09.618Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T03:00:09.619Z"}
+{"level":"info","message":"Recived DELETE request to /api/media/delete/67b7ebfb62459ec9c3fe9827","service":"mdeia-service","timestamp":"2025-02-21T03:00:16.648Z"}
+{"level":"info","message":"Request body, [object Object]","service":"mdeia-service","timestamp":"2025-02-21T03:00:16.649Z"}
+{"level":"info","message":"Media delete endpoint..","service":"mdeia-service","timestamp":"2025-02-21T03:00:16.651Z"}
+{"level":"info","message":"Media deleted from database: 67b7ebfb62459ec9c3fe9827","service":"mdeia-service","timestamp":"2025-02-21T03:00:16.677Z"}

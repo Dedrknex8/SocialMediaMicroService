@@ -10,7 +10,7 @@ const postShema = new mongoose.Schema({
         type:String,
         required:true,
     },
-    mdeiaIds:[
+    mediaIds:[
         {        
         type : String,
 
