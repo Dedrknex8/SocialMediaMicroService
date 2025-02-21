@@ -219,3 +219,5 @@
 {"level":"info","message":"Media deleted from database: 67b7ebfb62459ec9c3fe9827","service":"mdeia-service","timestamp":"2025-02-21T03:00:16.677Z"}
 {"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-21T03:20:07.627Z"}
 {"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-21T03:20:07.652Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-21T12:33:29.272Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-21T12:33:29.297Z"}

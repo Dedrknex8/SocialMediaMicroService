@@ -1,5 +1,7 @@
 const Post = require('../modells/post');
+const { post } = require('../routes/post-routes');
 const logger = require('../utils/logger');
+const { publishEvent } = require('../utils/rabbitmq');
 const {validateCreatePost} = require('../utils/valildation');
 //create post
 const createPost = async(req,res)=>{
@@ -146,9 +148,18 @@ const deletePost = async(req,res)=>{
             })
         }
 
-        
+        //publish event
+        await publishEvent('post.deleted',{
+            postId : post._id,
+            userId : req.user.userId,
+            mediaIds:post.mediaIds
+        })
+
+
+
         // maybe decahed the value
-        await req.redisClient.del(`post:${deletePostId}`);
+        // await req.redisClient.del(`post:${deletePostId}`);
+        await invalidPostCache(req,req.params.id);
         return res.status(200).json({
             success:true,
             message:'Post deleted sucessFully'
