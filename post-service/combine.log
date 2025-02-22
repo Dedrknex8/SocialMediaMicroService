@@ -233,3 +233,103 @@
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T04:05:37.925Z"}
 {"level":"info","message":"Delete post endpoint hit","service":"post-service","timestamp":"2025-02-22T04:05:37.928Z"}
 {"level":"info","message":"Event published : post.deleted","service":"post-service","timestamp":"2025-02-22T04:05:37.968Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-22T08:04:54.460Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-22T08:04:54.513Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-22T08:04:54.516Z"}
+{"errorLabelSet":{},"level":"error","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"cluster0-shard-00-00.lfj3s.mongodb.net:27017":{"$clusterTime":null,"address":"cluster0-shard-00-00.lfj3s.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":11976706,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"cluster0-shard-00-01.lfj3s.mongodb.net:27017":{"$clusterTime":null,"address":"cluster0-shard-00-01.lfj3s.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":11976627,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"cluster0-shard-00-02.lfj3s.mongodb.net:27017":{"$clusterTime":null,"address":"cluster0-shard-00-02.lfj3s.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":11976600,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-vfilgo-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"service":"post-service","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\post-service\\node_modules\\mongoose\\lib\\connection.js:1154:11)\n    at NativeConnection.openUri (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\post-service\\node_modules\\mongoose\\lib\\connection.js:1085:11)","timestamp":"2025-02-22T08:05:26.699Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-22T08:07:03.965Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-22T08:07:04.010Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-22T08:07:04.012Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:14:36.443Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:14:36.445Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:14:36.453Z"}
+{"level":"warn","message":"error creating the post ReferenceError: Cannot access 'newnlyCreatedPost' before initialization","service":"post-service","timestamp":"2025-02-22T08:14:36.463Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-22T08:17:07.196Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-22T08:17:07.331Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-22T08:17:07.336Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:17:12.923Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:17:12.924Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:17:12.931Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:17:13.266Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'new media',\n  mediaIds: [ 'mypostId' ],\n  _id: new ObjectId('67b98808eb0d387addd7e024'),\n  createdAt: 2025-02-22T08:17:12.966Z,\n  updatedAt: 2025-02-22T08:17:12.966Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:17:13.273Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:22:51.662Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:22:51.663Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:22:51.666Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:22:53.177Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'new media',\n  mediaIds: [],\n  _id: new ObjectId('67b9895beb0d387addd7e026'),\n  createdAt: 2025-02-22T08:22:51.669Z,\n  updatedAt: 2025-02-22T08:22:51.669Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:22:53.180Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:24:37.009Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:24:37.010Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:24:37.012Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:24:37.047Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'new media',\n  mediaIds: [],\n  _id: new ObjectId('67b989c5eb0d387addd7e028'),\n  createdAt: 2025-02-22T08:24:37.014Z,\n  updatedAt: 2025-02-22T08:24:37.014Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:24:37.049Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:40:40.493Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:40:40.494Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:40:40.499Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:40:40.817Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'new media',\n  mediaIds: [],\n  _id: new ObjectId('67b98d88eb0d387addd7e02a'),\n  createdAt: 2025-02-22T08:40:40.504Z,\n  updatedAt: 2025-02-22T08:40:40.504Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:40:40.823Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:41:17.637Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:41:17.637Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:41:17.639Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:41:17.687Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'new media',\n  mediaIds: [],\n  _id: new ObjectId('67b98dadeb0d387addd7e02c'),\n  createdAt: 2025-02-22T08:41:17.641Z,\n  updatedAt: 2025-02-22T08:41:17.641Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:41:17.688Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:43:39.524Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:43:39.524Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:43:39.527Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:43:39.565Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'new media',\n  mediaIds: [],\n  _id: new ObjectId('67b98e3beb0d387addd7e02e'),\n  createdAt: 2025-02-22T08:43:39.529Z,\n  updatedAt: 2025-02-22T08:43:39.529Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:43:39.567Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:47:57.400Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:47:57.401Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:47:57.406Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:47:57.454Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'new media',\n  mediaIds: [],\n  _id: new ObjectId('67b98f3deb0d387addd7e030'),\n  createdAt: 2025-02-22T08:47:57.410Z,\n  updatedAt: 2025-02-22T08:47:57.410Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:47:57.468Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:56:15.406Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:56:15.406Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:56:15.408Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:56:15.442Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'check media',\n  mediaIds: [],\n  _id: new ObjectId('67b9912feb0d387addd7e032'),\n  createdAt: 2025-02-22T08:56:15.411Z,\n  updatedAt: 2025-02-22T08:56:15.411Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:56:15.443Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:56:50.330Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:56:50.331Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:56:50.334Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:56:50.373Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'check media',\n  mediaIds: [],\n  _id: new ObjectId('67b99152eb0d387addd7e034'),\n  createdAt: 2025-02-22T08:56:50.337Z,\n  updatedAt: 2025-02-22T08:56:50.337Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:56:50.375Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T08:58:01.226Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T08:58:01.227Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T08:58:01.229Z"}
+{"level":"info","message":"Event published : post.creted","service":"post-service","timestamp":"2025-02-22T08:58:01.261Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'check media',\n  mediaIds: [],\n  _id: new ObjectId('67b99199eb0d387addd7e036'),\n  createdAt: 2025-02-22T08:58:01.231Z,\n  updatedAt: 2025-02-22T08:58:01.231Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T08:58:01.263Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-22T09:03:31.815Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-22T09:03:31.921Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-22T09:03:31.925Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T09:03:36.849Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T09:03:36.850Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T09:03:36.857Z"}
+{"level":"warn","message":"error creating the post ReferenceError: newlyCreatedPost is not defined","service":"post-service","timestamp":"2025-02-22T09:03:36.920Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T09:03:40.528Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T09:03:40.529Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T09:03:40.534Z"}
+{"level":"warn","message":"error creating the post ReferenceError: newlyCreatedPost is not defined","service":"post-service","timestamp":"2025-02-22T09:03:40.577Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-22T09:04:38.812Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-22T09:04:38.971Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-22T09:04:38.974Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T09:04:47.153Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T09:04:47.155Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T09:04:47.168Z"}
+{"level":"warn","message":"error creating the post ReferenceError: newnlyCreatedPostnewnlyCreatedPost is not defined","service":"post-service","timestamp":"2025-02-22T09:04:47.261Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-22T09:05:10.530Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-22T09:05:10.766Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-22T09:05:10.770Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T09:05:11.015Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T09:05:11.016Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T09:05:11.024Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-22T09:05:11.169Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'check media',\n  mediaIds: [],\n  _id: new ObjectId('67b99347cf709807268c7a2d'),\n  createdAt: 2025-02-22T09:05:11.041Z,\n  updatedAt: 2025-02-22T09:05:11.041Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T09:05:11.179Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T09:06:20.536Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T09:06:20.536Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T09:06:20.539Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-22T09:06:20.575Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'check media',\n  mediaIds: [],\n  _id: new ObjectId('67b9938ccf709807268c7a31'),\n  createdAt: 2025-02-22T09:06:20.541Z,\n  updatedAt: 2025-02-22T09:06:20.541Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T09:06:20.577Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-22T09:07:56.058Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-22T09:07:56.059Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T09:07:56.061Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-22T09:07:56.105Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'check media',\n  mediaIds: [],\n  _id: new ObjectId('67b993eccf709807268c7a33'),\n  createdAt: 2025-02-22T09:07:56.064Z,\n  updatedAt: 2025-02-22T09:07:56.064Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T09:07:56.108Z"}

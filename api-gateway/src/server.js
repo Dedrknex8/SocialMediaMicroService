@@ -120,30 +120,27 @@ app.use('/v1/media',
     parseReqBody : false, //ensure that entered proxy data is proxy for file upload also
     
 })),
-//Setting up proxy for search services
-app.use('/v1/search',
+//setting up proxy for our search service
+app.use(
+    "/v1/search",
     validateToken,
-    proxy(process.env.SEARCH_SERVICE_URL,{
-    ...proxyOptions,
-    proxyReqOptDecorator : (proxyReqOpts,srcReq)=>{
-        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId; // for post service auth middleware
-        const contentType = srcReq.headers['content-type'] || "";
-
-        if (!contentType.startsWith("multipart/form-data")) {
-        proxyReqOpts.headers['Content-Type'] = "application/json";
-        }
-
-        return proxyReqOpts; 
-    },
-    userResDecorator: (proxyRes,proxyResData,userReq,userRes)=>{
-        logger.info(`Response recived from Search service: ${proxyRes.statusCode} `);
-        // console.log("Something wrong here");
-    return proxyResData;
-    },
-    parseReqBody : false, //ensure that entered proxy data is proxy for file upload also
-    
-})),
-
+    proxy(process.env.SEARCH_SERVICE_URL, {
+      ...proxyOptions,
+      proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+        proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+  
+        return proxyReqOpts;
+      },
+      userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+        logger.info(
+          `Response received from Search service: ${proxyRes.statusCode}`
+        );
+  
+        return proxyResData;
+      },
+    })
+  );
 
 
 
@@ -152,5 +149,6 @@ app.listen(PORT,()=>{
     logger.info(`Identity service is running on ${process.env.IDENTITY_SERVICE_URL} `);
     logger.info(`POST service is running on ${process.env.POST_SERVICE_URL} `);
     logger.info(`MEDIA service is running on ${process.env.MEDIA_SERVICE_URL} `);
+    logger.info(`SEARCH service is running on ${process.env.SEARCH_SERVICE_URL} `);
     
 })

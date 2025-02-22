@@ -17,20 +17,29 @@ const createPost = async(req,res)=>{
           });
         }
     const { content,mediaIds } = req.body;
+    
     const newnlyCreatedPost = new Post({
         user : req.user.userId,
         content,
         mediaIds:mediaIds || []
-    })
+    });
     
     await newnlyCreatedPost.save();
+    
+    await publishEvent("post.created", {
+        postId: newnlyCreatedPost._id.toString(),
+        userId: newnlyCreatedPost.user.toString(),
+        content: newnlyCreatedPost.content,
+        createdAt: newnlyCreatedPost.createdAt,
+      });
     //invalid the cached keys and delete the cached when post is created
-    await invalidPostCache(req,newnlyCreatedPost._id.toString())
-    logger.info(`Post created sucessfully ${newnlyCreatedPost}`)
+    await invalidPostCache(req, newnlyCreatedPost._id.toString());
+    
+    logger.info(`Post created sucessfully ${newnlyCreatedPost}`);
     res.status(201).json({
         success : true,
         message: 'Post created sucessfully'
-    })
+    });
     } catch (error) {
         logger.warn(`error creating the post ${error}`);
         res.status(500).json({
@@ -133,7 +142,6 @@ const getSinglepost = async(req,res)=>{
 }
 
 // delete post
-
 const deletePost = async(req,res)=>{
     logger.info('Delete post endpoint hit');
 
@@ -175,5 +183,5 @@ const deletePost = async(req,res)=>{
             message: "Error deleting posts",
         })
     }
-}
+};
 module.exports = { createPost,getallPost,getSinglepost,deletePost};

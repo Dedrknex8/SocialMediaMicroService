@@ -9,10 +9,11 @@ const logger = require('./utils/logger');
 const connectTodb = require('../src/database/db');
 const { RateLimiterRedis } = require('rate-limiter-flexible');
 const { connectRabbitMQ ,consumeEvent} = require('./utils/rabbitmq');
+const searchRoutes = require('./routes/search-routes');
+const {handlePostCreated} = require('./EventHandler/search-eventhandler');
 
 const app = express();
 const PORT = process.env.PORT || 3004;
-
 
 connectTodb();
 //middleware
@@ -26,7 +27,7 @@ app.use((req,res,next)=>{
     logger.info(`Recived ${req.method} request to ${req.url}`)
     logger.info(`Request body, ${req.body}`)
     next();
-})
+});
 
 //DDOS PROTECTIOPN globaly
 
@@ -47,12 +48,21 @@ app.use((req,res,next)=>{
 });
 
 
+app.use('/api/search', searchRoutes);
+
+
+
 //Task create new area and for ip based filtering 
 app.use(errorHanlder); // export as middleware not as object {errorhandler} X 
 
 async function startServer(){
     try {
+        
+        logger.info('Subscribing to the event !!');
         await connectRabbitMQ();
+
+        //consume the event
+        await consumeEvent('post.created', handlePostCreated );
         app.listen(PORT,()=>{
             logger.info('Listing to port sucessFully')
         });
@@ -63,3 +73,7 @@ async function startServer(){
 }
 
 startServer();
+
+process.on("unhandledRejection", (reason, promise) => {
+    logger.error(`Unhandled Rejection at: ${promise}, reason: ${reason.stack || reason}`);
+});

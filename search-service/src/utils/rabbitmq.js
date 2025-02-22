@@ -1,5 +1,5 @@
 const amqp = require('amqplib');
-const logger = require('./logger');
+const logger = require('../utils/logger');
 
 let connection = null;
 let channel = null;
@@ -28,9 +28,11 @@ async function consumeEvent(routingKey,callback){
     const q = await channel.assertQueue("",{exclusive  : true})
    await channel.bindQueue(q.queue,EXCHANGE_NAME,routingKey);
     channel.consume(q.queue,(msg)=>{
+        if(msg!==null){
         const content = JSON.parse(msg.content.toString());
         callback(content);
         channel.ack(msg);
+        }
     })
 
     logger.info(`Subscribed to event : ${routingKey}` ) 

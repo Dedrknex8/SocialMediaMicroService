@@ -5,4 +5,6 @@ const { searchPostController } = require('../controllers/search-controller');
 const router = express.Router();
 
 
-router.post('/post',authenticateReq,searchPostController);
+router.post('/search-post',authenticateReq,searchPostController);
+
+module.exports = router;
