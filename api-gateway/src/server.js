@@ -120,6 +120,29 @@ app.use('/v1/media',
     parseReqBody : false, //ensure that entered proxy data is proxy for file upload also
     
 })),
+//Setting up proxy for search services
+app.use('/v1/search',
+    validateToken,
+    proxy(process.env.SEARCH_SERVICE_URL,{
+    ...proxyOptions,
+    proxyReqOptDecorator : (proxyReqOpts,srcReq)=>{
+        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId; // for post service auth middleware
+        const contentType = srcReq.headers['content-type'] || "";
+
+        if (!contentType.startsWith("multipart/form-data")) {
+        proxyReqOpts.headers['Content-Type'] = "application/json";
+        }
+
+        return proxyReqOpts; 
+    },
+    userResDecorator: (proxyRes,proxyResData,userReq,userRes)=>{
+        logger.info(`Response recived from Search service: ${proxyRes.statusCode} `);
+        // console.log("Something wrong here");
+    return proxyResData;
+    },
+    parseReqBody : false, //ensure that entered proxy data is proxy for file upload also
+    
+})),
 
 
 
