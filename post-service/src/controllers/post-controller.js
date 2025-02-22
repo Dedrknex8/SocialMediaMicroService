@@ -138,23 +138,24 @@ const deletePost = async(req,res)=>{
     logger.info('Delete post endpoint hit');
 
     try {
-        const deletePostId = req.params.id
-        const postToBeDeleted = await Post.findByIdAndDelete(deletePostId)
+        const post = await Post.findByIdAndDelete({
+            _id: req.params.id,
+            user:req.user.userId,
+        });
 
-        if(!postToBeDeleted){
+        if(!post){
             return res.status(400).json({
                 sucess:false,
-                message:'Cannot delete post with this id'
+                message:"post can't be found"
             })
         }
 
-        //publish event
+        //publish event post.deleted-> routingKey
         await publishEvent('post.deleted',{
             postId : post._id,
             userId : req.user.userId,
             mediaIds:post.mediaIds
         })
-
 
 
         // maybe decahed the value

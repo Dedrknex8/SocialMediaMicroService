@@ -8,6 +8,8 @@ const mediaRoutes = require('./routes/media-router');
 const errorhandler = require('./middleware/errorHandler');
 const logger = require('./utils/logger');
 const connectTodb = require('../src/database/db');
+const { connectRabbitMQ, consumeEvent } = require('./utils/rabbitmq');
+const { handlerPostDeleted } = require('./EventHandlers/media-event-handlers');
 
 const app = express();
 const PORT=process.env.PORT || 3003
@@ -33,6 +35,19 @@ app.use('/api/media',mediaRoutes);
 
 app.use(errorhandler);
 
-app.listen(PORT,()=>{
-    logger.info('Listing to port sucessFully')
-});
+async function startServer(){
+    logger.info('Starting Media service')
+    try {
+        await connectRabbitMQ();
+        //consume all evenents
+        await consumeEvent('post.deleted',handlerPostDeleted);
+        app.listen(PORT,()=>{
+            logger.info('Listing to port sucessFully')
+        });
+    } catch (error) {
+        logger.error('Error starting the server',error);
+        process.exit(1);
+    }
+}
+
+startServer();
