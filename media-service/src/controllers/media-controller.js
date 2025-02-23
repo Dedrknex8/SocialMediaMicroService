@@ -57,17 +57,17 @@ const getMedia = async(req,res)=>{
     logger.info('Getting media ...');
     try {
         
-        const result =  await Media.find({});
+        const result =  await Media.find({userId : req.user.userId});
 
-        if(!result){
-           return res.status(400).json({
+        if(result.length ===0){
+           return res.status(404).json({
                 success:false,
-                message:"Cann't find any media"
+                message:"Cann't find any media for this user"
             })
         }
         return res.status(200).json({
             success:true,
-            message:"Fond media any media",
+            message:"Found media ",
             result,
         })
 

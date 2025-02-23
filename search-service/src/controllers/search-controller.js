@@ -1,11 +1,11 @@
 const Search = require('../modells/Search');
-
+const logger = require('../utils/logger');
 const searchPostController = async(req,res)=>{
     logger.info('Search endpoint hit ...')
     try {
         
         const {query} = req.query;
-        const result = Search.find(
+        const result = await Search.find(
             {
                 $text: {$search : query},
             },
@@ -27,7 +27,7 @@ const searchPostController = async(req,res)=>{
             message:"Content Found",
         })
     } catch (error) {
-        logger.error('Error while searching');
+        logger.error('Error while searching',error);
         return res.status(500).json({
             success:false,
             message:'Error while searching'

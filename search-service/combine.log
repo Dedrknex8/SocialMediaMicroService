@@ -137,3 +137,136 @@
 {"level":"info","message":"Search post created: 67ba9e8e1f03fbe37e6843a9, 67ba9e8e2a894ee88391ec92","service":"post-service","timestamp":"2025-02-23T04:05:34.278Z"}
 {"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:05:52.640Z"}
 {"level":"info","message":"Search post created: 67ba9ea01f03fbe37e6843ab, 67ba9ea02a894ee88391ec94","service":"post-service","timestamp":"2025-02-23T04:05:52.708Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:11:40.659Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:11:40.670Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:11:40.783Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:11:40.793Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:11:40.798Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:12:42.545Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:12:42.556Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:12:42.603Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:12:42.613Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:12:42.616Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:13:11.459Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:13:11.465Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:13:11.530Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:13:11.538Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:13:11.557Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:13:11.559Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:15:29.706Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:15:29.718Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:15:29.824Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:15:29.835Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:15:29.846Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:15:29.851Z"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: TypeError: logger.ingo is not a function\n    at handlePostDeleted (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\src\\EventHandler\\search-eventhandler.js:24:10)\n    at D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\src\\utils\\rabbitmq.js:33:9\n    at Channel.dispatchMessage (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\amqplib\\lib\\channel.js:485:14)\n    at Channel.handleDelivery (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\amqplib\\lib\\channel.js:494:17)\n    at Channel.emit (node:events:518:28)\n    at D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\amqplib\\lib\\channel.js:391:10\n    at Channel.content (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\amqplib\\lib\\channel.js:444:9)\n    at Channel.acceptMessageFrame (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\amqplib\\lib\\channel.js:228:33)\n    at Channel.accept (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\amqplib\\lib\\channel.js:298:19)\n    at Connection.mainAccept [as accept] (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\amqplib\\lib\\connection.js:579:33)","service":"post-service","timestamp":"2025-02-23T04:16:39.425Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:17:10.905Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:17:10.922Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:17:11.069Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:17:11.084Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:17:11.109Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:17:11.114Z"}
+{"level":"info","message":"Deleting post ..","service":"post-service","timestamp":"2025-02-23T04:17:24.060Z"}
+{"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:18:53.131Z"}
+{"level":"info","message":"Search post created: 67baa1ad1f03fbe37e6843b3, 67baa1ad5b519af297256de0","service":"post-service","timestamp":"2025-02-23T04:18:53.204Z"}
+{"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:18:57.543Z"}
+{"level":"info","message":"Search post created: 67baa1b11f03fbe37e6843b5, 67baa1b15b519af297256de2","service":"post-service","timestamp":"2025-02-23T04:18:57.592Z"}
+{"level":"info","message":"Deleting post ..","service":"post-service","timestamp":"2025-02-23T04:19:13.946Z"}
+{"level":"info","message":"Deleting post ..","service":"post-service","timestamp":"2025-02-23T04:19:34.620Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:20:37.263Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:20:37.275Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:20:37.394Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:20:37.404Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:20:37.413Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:20:37.417Z"}
+{"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:20:56.341Z"}
+{"level":"info","message":"Search post created: 67baa2281f03fbe37e6843bd, 67baa2289b51856c4e946212","service":"post-service","timestamp":"2025-02-23T04:20:56.406Z"}
+{"level":"info","message":"Deleting post ..","service":"post-service","timestamp":"2025-02-23T04:21:13.841Z"}
+{"level":"info","message":"Post deleted sucessfully! 67baa2281f03fbe37e6843bd","service":"post-service","timestamp":"2025-02-23T04:21:13.890Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:21:31.345Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:21:31.356Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:21:31.468Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:21:31.478Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:21:31.491Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:21:31.494Z"}
+{"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:21:36.774Z"}
+{"level":"info","message":"Search post created: 67baa2501f03fbe37e6843c2, 67baa25063ddce757679f200","service":"post-service","timestamp":"2025-02-23T04:21:36.837Z"}
+{"level":"info","message":"Deleting post ..","service":"post-service","timestamp":"2025-02-23T04:21:49.281Z"}
+{"level":"info","message":"Post deleted sucessfully! postId : 67baa2501f03fbe37e6843c2","service":"post-service","timestamp":"2025-02-23T04:21:49.335Z"}
+{"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:26:06.985Z"}
+{"level":"info","message":"Search post created: 67baa35e1f03fbe37e6843c7, 67baa35e63ddce757679f203","service":"post-service","timestamp":"2025-02-23T04:26:07.019Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:26:49.441Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:26:49.442Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-postt?query=second","service":"post-service","timestamp":"2025-02-23T04:27:46.165Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:27:46.166Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-postt?query=second","service":"post-service","timestamp":"2025-02-23T04:28:18.631Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:28:18.632Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:28:30.557Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:28:30.558Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:29:26.040Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:29:26.041Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:29:42.935Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:29:42.946Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:29:43.077Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:29:43.088Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:29:43.099Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:29:43.104Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:29:45.348Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:29:45.349Z"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: ReferenceError: logger is not defined\n    at searchPostController (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\src\\controllers\\search-controller.js:4:5)\n    at Layer.handle [as handle_request] (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at authenticateReq (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\src\\middleware\\auth-middleware.js:15:5)\n    at Layer.handle [as handle_request] (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\index.js:346:12)","service":"post-service","timestamp":"2025-02-23T04:29:45.356Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:30:33.823Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:30:33.840Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:30:34.002Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:30:34.012Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:30:34.024Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:30:34.028Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:30:36.364Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:30:36.365Z"}
+{"level":"info","message":"Search endpoint hit ...","service":"post-service","timestamp":"2025-02-23T04:30:36.371Z"}
+{"level":"error","message":"Error while searching","service":"post-service","timestamp":"2025-02-23T04:30:36.375Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:30:58.916Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:30:58.927Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:30:58.978Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:30:58.991Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:30:59.065Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:30:59.069Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:31:12.983Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:31:12.984Z"}
+{"level":"info","message":"Search endpoint hit ...","service":"post-service","timestamp":"2025-02-23T04:31:12.989Z"}
+{"level":"error","message":"Error while searching Converting circular structure to JSON\n    --> starting at object with constructor 'MongoClient'\n    |     property 's' -> object with constructor 'Object'\n    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n    --- property 'client' closes the circle","service":"post-service","stack":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'MongoClient'\n    |     property 's' -> object with constructor 'Object'\n    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n    --- property 'client' closes the circle\n    at JSON.stringify (<anonymous>)\n    at stringify (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\response.js:1160:12)\n    at ServerResponse.json (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\response.js:271:14)\n    at searchPostController (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\src\\controllers\\search-controller.js:24:32)\n    at Layer.handle [as handle_request] (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at authenticateReq (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\src\\middleware\\auth-middleware.js:15:5)\n    at Layer.handle [as handle_request] (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Cybersec\\New folder\\AdvanceConcepts\\SocailMediaMicroservercies\\search-service\\node_modules\\express\\lib\\router\\route.js:119:3)","timestamp":"2025-02-23T04:31:12.993Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:33:20.885Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:33:20.898Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:33:21.018Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:33:21.028Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:33:21.050Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:33:21.054Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:33:26.256Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:33:26.257Z"}
+{"level":"info","message":"Search endpoint hit ...","service":"post-service","timestamp":"2025-02-23T04:33:26.264Z"}
+{"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:33:49.125Z"}
+{"level":"info","message":"Search post created: 67baa52d1f03fbe37e6843c9, 67baa52d2f42936a9602f4cb","service":"post-service","timestamp":"2025-02-23T04:33:49.182Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:33:52.419Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:33:52.420Z"}
+{"level":"info","message":"Search endpoint hit ...","service":"post-service","timestamp":"2025-02-23T04:33:52.424Z"}
+{"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:35:58.490Z"}
+{"level":"info","message":"Search post created: 67baa5ae1f03fbe37e6843cb, 67baa5ae2f42936a9602f4ce","service":"post-service","timestamp":"2025-02-23T04:35:58.528Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=second","service":"post-service","timestamp":"2025-02-23T04:36:13.382Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:36:13.383Z"}
+{"level":"info","message":"Search endpoint hit ...","service":"post-service","timestamp":"2025-02-23T04:36:13.386Z"}
+{"level":"info","message":"Recived GET request to /api/search/search-post?query=fifth","service":"post-service","timestamp":"2025-02-23T04:36:24.762Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:36:24.763Z"}
+{"level":"info","message":"Search endpoint hit ...","service":"post-service","timestamp":"2025-02-23T04:36:24.768Z"}
+{"level":"info","message":"Deleting post ..","service":"post-service","timestamp":"2025-02-23T04:37:16.152Z"}
+{"level":"info","message":"Post deleted sucessfully! postId : 67baa52d1f03fbe37e6843c9","service":"post-service","timestamp":"2025-02-23T04:37:16.188Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T04:42:43.128Z"}
+{"level":"info","message":"Subscribing to the event !!","service":"post-service","timestamp":"2025-02-23T04:42:43.140Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T04:42:43.186Z"}
+{"level":"info","message":"Subscribed to event : post.created","service":"post-service","timestamp":"2025-02-23T04:42:43.252Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"post-service","timestamp":"2025-02-23T04:42:43.260Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T04:42:43.263Z"}
+{"level":"info","message":"Deleting post ..","service":"post-service","timestamp":"2025-02-23T04:44:21.554Z"}
+{"level":"info","message":"Post deleted sucessfully! postId : 67baa5ae1f03fbe37e6843cb","service":"post-service","timestamp":"2025-02-23T04:44:21.609Z"}
+{"level":"info","message":"herer handlePost","service":"post-service","timestamp":"2025-02-23T04:47:45.381Z"}
+{"level":"info","message":"Search post created: 67baa87192b9cd8955b3c06d, 67baa8715ae817c334579bfc","service":"post-service","timestamp":"2025-02-23T04:47:45.437Z"}
+{"level":"info","message":"Deleting post ..","service":"post-service","timestamp":"2025-02-23T04:49:39.692Z"}
+{"level":"info","message":"Post deleted sucessfully! postId : 67baa87192b9cd8955b3c06d","service":"post-service","timestamp":"2025-02-23T04:49:39.730Z"}

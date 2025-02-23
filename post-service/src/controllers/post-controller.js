@@ -146,7 +146,7 @@ const deletePost = async(req,res)=>{
     logger.info('Delete post endpoint hit');
 
     try {
-        const post = await Post.findByIdAndDelete({
+        const post = await Post.findOneAndDelete({
             _id: req.params.id,
             user:req.user.userId,
         });

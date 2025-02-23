@@ -10,7 +10,7 @@ const connectTodb = require('../src/database/db');
 const { RateLimiterRedis } = require('rate-limiter-flexible');
 const { connectRabbitMQ ,consumeEvent} = require('./utils/rabbitmq');
 const searchRoutes = require('./routes/search-routes');
-const {handlePostCreated} = require('./EventHandler/search-eventhandler');
+const {handlePostCreated, handlePostDeleted} = require('./EventHandler/search-eventhandler');
 
 const app = express();
 const PORT = process.env.PORT || 3004;
@@ -63,6 +63,7 @@ async function startServer(){
 
         //consume the event
         await consumeEvent('post.created', handlePostCreated );
+        await consumeEvent('post.deleted',handlePostDeleted);
         app.listen(PORT,()=>{
             logger.info('Listing to port sucessFully')
         });
