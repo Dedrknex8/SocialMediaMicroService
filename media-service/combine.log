@@ -301,3 +301,8 @@
 {"level":"info","message":"Connected to RabbitMq","service":"mdeia-service","timestamp":"2025-02-22T08:06:34.977Z"}
 {"level":"info","message":"Subscribed to event : post.deleted","service":"mdeia-service","timestamp":"2025-02-22T08:06:35.010Z"}
 {"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-22T08:06:35.020Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"mdeia-service","timestamp":"2025-02-23T03:57:31.916Z"}
+{"level":"info","message":"Starting Media service","service":"mdeia-service","timestamp":"2025-02-23T03:57:31.924Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"mdeia-service","timestamp":"2025-02-23T03:57:32.016Z"}
+{"level":"info","message":"Subscribed to event : post.deleted","service":"mdeia-service","timestamp":"2025-02-23T03:57:32.026Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"mdeia-service","timestamp":"2025-02-23T03:57:32.030Z"}

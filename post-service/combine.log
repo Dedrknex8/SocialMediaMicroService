@@ -333,3 +333,36 @@
 {"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-22T09:07:56.061Z"}
 {"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-22T09:07:56.105Z"}
 {"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'check media',\n  mediaIds: [],\n  _id: new ObjectId('67b993eccf709807268c7a33'),\n  createdAt: 2025-02-22T09:07:56.064Z,\n  updatedAt: 2025-02-22T09:07:56.064Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-22T09:07:56.108Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T03:57:48.794Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T03:57:48.979Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T03:57:48.983Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-23T04:02:05.416Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:02:05.418Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-23T04:02:05.423Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-23T04:02:05.506Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'first post',\n  mediaIds: [],\n  _id: new ObjectId('67ba9dbd1f03fbe37e6843a1'),\n  createdAt: 2025-02-23T04:02:05.438Z,\n  updatedAt: 2025-02-23T04:02:05.438Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-23T04:02:05.513Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-23T04:02:11.367Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:02:11.368Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-23T04:02:11.371Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-23T04:02:11.414Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'second post',\n  mediaIds: [],\n  _id: new ObjectId('67ba9dc31f03fbe37e6843a3'),\n  createdAt: 2025-02-23T04:02:11.373Z,\n  updatedAt: 2025-02-23T04:02:11.373Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-23T04:02:11.415Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-23T04:02:57.501Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:02:57.501Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-23T04:02:57.503Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-23T04:02:57.549Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'second post',\n  mediaIds: [],\n  _id: new ObjectId('67ba9df11f03fbe37e6843a5'),\n  createdAt: 2025-02-23T04:02:57.505Z,\n  updatedAt: 2025-02-23T04:02:57.505Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-23T04:02:57.550Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-23T04:03:27.182Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:03:27.183Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-23T04:03:27.185Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-23T04:03:27.226Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'second ',\n  mediaIds: [],\n  _id: new ObjectId('67ba9e0f1f03fbe37e6843a7'),\n  createdAt: 2025-02-23T04:03:27.187Z,\n  updatedAt: 2025-02-23T04:03:27.187Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-23T04:03:27.228Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-23T04:05:34.093Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:05:34.094Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-23T04:05:34.097Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-23T04:05:34.167Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'first ',\n  mediaIds: [],\n  _id: new ObjectId('67ba9e8e1f03fbe37e6843a9'),\n  createdAt: 2025-02-23T04:05:34.099Z,\n  updatedAt: 2025-02-23T04:05:34.099Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-23T04:05:34.170Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-23T04:05:52.586Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:05:52.587Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-23T04:05:52.590Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-23T04:05:52.636Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'second ',\n  mediaIds: [],\n  _id: new ObjectId('67ba9ea01f03fbe37e6843ab'),\n  createdAt: 2025-02-23T04:05:52.593Z,\n  updatedAt: 2025-02-23T04:05:52.593Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-23T04:05:52.638Z"}
