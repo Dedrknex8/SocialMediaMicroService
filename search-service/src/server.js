@@ -23,6 +23,11 @@ app.use(express.json());
 //create redisClient
 const redisClient = new Redis(process.env.REDIS_URI);
 
+app.use((req, res, next) => {
+    req.redisClient = redisClient;
+    next();
+});
+
 app.use((req,res,next)=>{
     logger.info(`Recived ${req.method} request to ${req.url}`)
     logger.info(`Request body, ${req.body}`)

@@ -119,7 +119,7 @@
             //get the store token from this token
             const storeToken = await RefreshToken.findOne({token : refreshToken});
 
-            if(!storeToken || storeToken.expiresAt < new Date()){
+            if(!storeToken || storeToken.expiresAt < new Date()){ 
               logger.warn('Invalid or expire token');
               return res.status(400).json({
                 sucess:false,

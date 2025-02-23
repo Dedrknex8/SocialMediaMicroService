@@ -23,9 +23,8 @@ async function handlePostCreated(event) {
 async function handlePostDeleted(event){
   logger.info("Deleting post ..");
   try {
-    
     await Search.findOneAndDelete({postId: event.postId})
-    logger.info(`Post deleted sucessfully! postId : ${event.postId}` )
+    logger.info(`Post deleted sucessfully! postId : ${event.postId}`)
   } catch (e) {
       logger.error(e, "Error handling post deldetion event");
     }
