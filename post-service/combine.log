@@ -491,3 +491,24 @@
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T04:49:39.643Z"}
 {"level":"info","message":"Delete post endpoint hit","service":"post-service","timestamp":"2025-02-23T04:49:39.648Z"}
 {"level":"info","message":"Event published : post.deleted","service":"post-service","timestamp":"2025-02-23T04:49:39.684Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T05:02:35.849Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T05:02:35.980Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T05:02:35.984Z"}
+{"level":"info","message":"Recived POST request to /api/post/create-post","service":"post-service","timestamp":"2025-02-23T05:03:02.748Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T05:03:02.749Z"}
+{"level":"warn","message":"Creating post Endpoint hit!","service":"post-service","timestamp":"2025-02-23T05:03:02.755Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-02-23T05:03:02.823Z"}
+{"level":"info","message":"Post created sucessfully {\n  user: new ObjectId('67b1e6082ef1450c97c2e4d2'),\n  content: 'delete this post',\n  mediaIds: [],\n  _id: new ObjectId('67baac063387e925de599182'),\n  createdAt: 2025-02-23T05:03:02.778Z,\n  updatedAt: 2025-02-23T05:03:02.778Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-02-23T05:03:02.829Z"}
+{"level":"info","message":"Recived GET request to /api/post/all-posts","service":"post-service","timestamp":"2025-02-23T05:03:08.925Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T05:03:08.926Z"}
+{"level":"warn","message":"Getting all post Endpoint hit!","service":"post-service","timestamp":"2025-02-23T05:03:08.931Z"}
+{"level":"info","message":"Recived DELETE request to /api/post/delete/67baac063387e925de599182","service":"post-service","timestamp":"2025-02-23T05:03:32.187Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T05:03:32.188Z"}
+{"level":"info","message":"Delete post endpoint hit","service":"post-service","timestamp":"2025-02-23T05:03:32.191Z"}
+{"level":"info","message":"Recived DELETE request to /api/post/delete/67baac063387e925de599182","service":"post-service","timestamp":"2025-02-23T05:04:05.604Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-02-23T05:04:05.604Z"}
+{"level":"info","message":"Delete post endpoint hit","service":"post-service","timestamp":"2025-02-23T05:04:05.607Z"}
+{"level":"info","message":"Event published : post.deleted","service":"post-service","timestamp":"2025-02-23T05:04:05.639Z"}
+{"level":"info","message":"conncted to db sucessfully","service":"post-service","timestamp":"2025-02-23T05:04:14.139Z"}
+{"level":"info","message":"Connected to RabbitMq","service":"post-service","timestamp":"2025-02-23T05:04:14.279Z"}
+{"level":"info","message":"Listing to port sucessFully","service":"post-service","timestamp":"2025-02-23T05:04:14.283Z"}
