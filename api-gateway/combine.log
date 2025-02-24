@@ -1867,3 +1867,13 @@
 {"level":"info","message":"Recived GET request to /v1/media/fetch","service":"api-gateway","timestamp":"2025-02-23T13:03:14.623Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-02-23T13:03:14.624Z"}
 {"level":"info","message":"Response recived from Media service: 200 ","service":"api-gateway","timestamp":"2025-02-23T13:03:14.656Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-24T13:24:40.568Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-24T13:24:40.576Z"}
+{"level":"info","message":"POST service is running on http://localhost:3002 ","service":"api-gateway","timestamp":"2025-02-24T13:24:40.577Z"}
+{"level":"info","message":"MEDIA service is running on http://localhost:3003 ","service":"api-gateway","timestamp":"2025-02-24T13:24:40.578Z"}
+{"level":"info","message":"SEARCH service is running on http://localhost:3004 ","service":"api-gateway","timestamp":"2025-02-24T13:24:40.579Z"}
+{"level":"info","message":"API GATEWAY IS RUNNIN ON PORT 3000 ","service":"api-gateway","timestamp":"2025-02-24T13:25:08.044Z"}
+{"level":"info","message":"Identity service is running on http://localhost:3001 ","service":"api-gateway","timestamp":"2025-02-24T13:25:08.048Z"}
+{"level":"info","message":"POST service is running on http://localhost:3002 ","service":"api-gateway","timestamp":"2025-02-24T13:25:08.049Z"}
+{"level":"info","message":"MEDIA service is running on http://localhost:3003 ","service":"api-gateway","timestamp":"2025-02-24T13:25:08.049Z"}
+{"level":"info","message":"SEARCH service is running on http://localhost:3004 ","service":"api-gateway","timestamp":"2025-02-24T13:25:08.049Z"}
